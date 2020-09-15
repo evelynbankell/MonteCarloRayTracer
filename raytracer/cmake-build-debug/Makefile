@@ -48,10 +48,17 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug
+=======
+CMAKE_SOURCE_DIR = /Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug
+>>>>>>> 9974ababca4b50ae33b8f683f072b47a87fa167d
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +87,15 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/CMakeFiles /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/CMakeFiles /Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/CMakeFiles/progress.marks
+	$(MAKE) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/CMakeFiles 0
+>>>>>>> 9974ababca4b50ae33b8f683f072b47a87fa167d
 .PHONY : all
 
 # The main clean target
