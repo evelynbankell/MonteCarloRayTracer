@@ -4,6 +4,8 @@
 
 #ifndef RAYTRACER_CAMERA_H
 #define RAYTRACER_CAMERA_H
+#include "../glm/glm.hpp"
+
 
 class Camera {
 private:
@@ -11,6 +13,7 @@ private:
 public:
     Camera(int n);
     int getNum();
+    glm::vec3 position;
 };
 
 #endif //RAYTRACER_CAMERA_H

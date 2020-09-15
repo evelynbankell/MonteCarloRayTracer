@@ -1,6 +1,8 @@
 #include <iostream>
 
 #include "../headers/Camera.h"
+
+
 //This is a main function 
 int main() {
     Camera n(35);

@@ -1,9 +1,3 @@
-<<<<<<< HEAD
 /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir
-=======
-/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir
->>>>>>> 9974ababca4b50ae33b8f683f072b47a87fa167d

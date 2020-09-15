@@ -1,0 +1,3 @@
+/Users/evelynbankell/documents/TNCG15/raytracer/raytracer/build/CMakeFiles/rebuild_cache.dir
+/Users/evelynbankell/documents/TNCG15/raytracer/raytracer/build/CMakeFiles/edit_cache.dir
+/Users/evelynbankell/documents/TNCG15/raytracer/raytracer/build/CMakeFiles/raytracer.dir

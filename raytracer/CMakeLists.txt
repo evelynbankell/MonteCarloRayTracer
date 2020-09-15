@@ -3,4 +3,7 @@ project(raytracer)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(raytracer src/main.cpp src/Camera.cpp headers/Camera.h)
+set(SOURCE_FILES ./src/main.cpp ./headers/Camera.h ./src/Camera.cpp)
+
+add_executable(raytracer ${SOURCE_FILES})
+
