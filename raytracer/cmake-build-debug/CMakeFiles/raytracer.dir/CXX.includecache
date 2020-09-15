@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/main.cpp
+/Users/hannahbergenroth/Desktop/ray-tracer/ray-tracer/raytracer/headers/Camera.h
+
+/Users/hannahbergenroth/Desktop/ray-tracer/ray-tracer/raytracer/src/Camera.cpp
+../headers/Camera.h
+/Users/hannahbergenroth/Desktop/ray-tracer/ray-tracer/raytracer/headers/Camera.h
+
+/Users/hannahbergenroth/Desktop/ray-tracer/ray-tracer/raytracer/src/main.cpp
 iostream
 -
+../headers/Camera.h
+/Users/hannahbergenroth/Desktop/ray-tracer/ray-tracer/raytracer/headers/Camera.h
 
