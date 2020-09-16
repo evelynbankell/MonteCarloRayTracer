@@ -83,6 +83,12 @@
 		<Unit filename="/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/headers/Camera.h">
 			<Option target="raytracer"/>
 		</Unit>
+		<Unit filename="/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/headers/ColorDbl.h">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/headers/Definitions.h">
+			<Option target="raytracer"/>
+		</Unit>
 		<Unit filename="/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/headers/Direction.h">
 			<Option target="raytracer"/>
 		</Unit>
@@ -99,9 +105,6 @@
 			<Option target="raytracer"/>
 		</Unit>
 		<Unit filename="/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/src/ColorDbl.cpp">
-			<Option target="raytracer"/>
-		</Unit>
-		<Unit filename="/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/src/ColorDbl.h">
 			<Option target="raytracer"/>
 		</Unit>
 		<Unit filename="/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/src/Direction.cpp">

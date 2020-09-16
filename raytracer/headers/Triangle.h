@@ -6,9 +6,7 @@
 #define RAYTRACER_TRIANGLE_H
 
 #include "../glm/glm.hpp"
-#include "Vertex.h"
-#include "Direction.h"
-#include "ColorDbl.h"
+#include "Definitions.h"
 
 class Triangle {
 public:
