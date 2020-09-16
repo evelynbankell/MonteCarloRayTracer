@@ -4,8 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/Camera.cpp" "/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Camera.cpp.o"
-  "/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/main.cpp" "/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/main.cpp.o"
+  "/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/src/Camera.cpp" "/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Camera.cpp.o"
+  "/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/src/ColorDbl.cpp" "/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/ColorDbl.cpp.o"
+  "/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/src/Direction.cpp" "/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Direction.cpp.o"
+  "/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/src/Scene.cpp" "/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Scene.cpp.o"
+  "/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/src/Triangle.cpp" "/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Triangle.cpp.o"
+  "/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/src/Vertex.cpp" "/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Vertex.cpp.o"
+  "/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/src/main.cpp" "/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

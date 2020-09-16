@@ -8,12 +8,9 @@
 
 
 class Camera {
-private:
-    int num;
 public:
-    Camera(int n);
-    int getNum();
-    glm::vec3 position;
+    Camera();
+    ~Camera();
 };
 
 #endif //RAYTRACER_CAMERA_H

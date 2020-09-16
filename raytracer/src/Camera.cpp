@@ -6,7 +6,6 @@
 
 
 Camera::Camera(int n): num(n) {}
-int Camera::getNum()
-{
+int Camera::getNum() {
     return num;
 }
