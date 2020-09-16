@@ -6,10 +6,14 @@
 #define RAYTRACER_SCENE_H
 
 
+#include "Triangle.h"
+
 class Scene {
 public:
     Scene();
     ~Scene();
+private:
+    Triangle triangleList[24];
 };
 
 

@@ -10,8 +10,11 @@
 
 class Triangle {
 public:
+    Triangle();
     Triangle(const Vertex &v0, const Vertex &v1, const Vertex &v2);
     ~Triangle();
+
+    //rayIntersection(Ray arg)
 
 private:
     Vertex v0, v1, v2;
