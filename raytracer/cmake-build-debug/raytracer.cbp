@@ -8,121 +8,109 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug"/>
+				<Option working_dir="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug"/>
+				<Option working_dir="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug"/>
+				<Option working_dir="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="raytracer">
-				<Option output="/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/raytracer" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug"/>
+				<Option output="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/raytracer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 raytracer"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 raytracer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="raytracer/fast">
-				<Option output="/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/raytracer" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug"/>
+				<Option output="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/raytracer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 raytracer/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 raytracer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/headers/Camera.h">
+		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Camera.h">
 			<Option target="raytracer"/>
 		</Unit>
-		<Unit filename="/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/headers/ColorDbl.h">
+		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Definitions.h">
 			<Option target="raytracer"/>
 		</Unit>
-		<Unit filename="/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/headers/Definitions.h">
+		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Scene.h">
 			<Option target="raytracer"/>
 		</Unit>
-		<Unit filename="/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/headers/Direction.h">
+		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Triangle.h">
 			<Option target="raytracer"/>
 		</Unit>
-		<Unit filename="/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/headers/Scene.h">
+		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/Camera.cpp">
 			<Option target="raytracer"/>
 		</Unit>
-		<Unit filename="/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/headers/Triangle.h">
+		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/Ray.cpp">
 			<Option target="raytracer"/>
 		</Unit>
-		<Unit filename="/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/headers/Vertex.h">
+		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/Ray.h">
 			<Option target="raytracer"/>
 		</Unit>
-		<Unit filename="/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/src/Camera.cpp">
+		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/Scene.cpp">
 			<Option target="raytracer"/>
 		</Unit>
-		<Unit filename="/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/src/ColorDbl.cpp">
+		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/Triangle.cpp">
 			<Option target="raytracer"/>
 		</Unit>
-		<Unit filename="/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/src/Direction.cpp">
+		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/main.cpp">
 			<Option target="raytracer"/>
 		</Unit>
-		<Unit filename="/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/src/Scene.cpp">
-			<Option target="raytracer"/>
-		</Unit>
-		<Unit filename="/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/src/Triangle.cpp">
-			<Option target="raytracer"/>
-		</Unit>
-		<Unit filename="/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/src/Vertex.cpp">
-			<Option target="raytracer"/>
-		</Unit>
-		<Unit filename="/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/src/main.cpp">
-			<Option target="raytracer"/>
-		</Unit>
-		<Unit filename="/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/CMakeLists.txt">
+		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

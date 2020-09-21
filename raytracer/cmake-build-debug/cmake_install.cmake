@@ -1,4 +1,4 @@
-# Install script for directory: /Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer
+# Install script for directory: /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

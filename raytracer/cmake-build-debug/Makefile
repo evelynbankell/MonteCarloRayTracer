@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer
+CMAKE_SOURCE_DIR = /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/CMakeFiles /Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/CMakeFiles /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hannahbergenroth/Desktop/TNCG15/ray-tracer/raytracer/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,59 +150,32 @@ src/Camera.cpp.s:
 	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Camera.cpp.s
 .PHONY : src/Camera.cpp.s
 
-src/ColorDbl.o: src/ColorDbl.cpp.o
+src/Ray.o: src/Ray.cpp.o
 
-.PHONY : src/ColorDbl.o
-
-# target to build an object file
-src/ColorDbl.cpp.o:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/ColorDbl.cpp.o
-.PHONY : src/ColorDbl.cpp.o
-
-src/ColorDbl.i: src/ColorDbl.cpp.i
-
-.PHONY : src/ColorDbl.i
-
-# target to preprocess a source file
-src/ColorDbl.cpp.i:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/ColorDbl.cpp.i
-.PHONY : src/ColorDbl.cpp.i
-
-src/ColorDbl.s: src/ColorDbl.cpp.s
-
-.PHONY : src/ColorDbl.s
-
-# target to generate assembly for a file
-src/ColorDbl.cpp.s:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/ColorDbl.cpp.s
-.PHONY : src/ColorDbl.cpp.s
-
-src/Direction.o: src/Direction.cpp.o
-
-.PHONY : src/Direction.o
+.PHONY : src/Ray.o
 
 # target to build an object file
-src/Direction.cpp.o:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Direction.cpp.o
-.PHONY : src/Direction.cpp.o
+src/Ray.cpp.o:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Ray.cpp.o
+.PHONY : src/Ray.cpp.o
 
-src/Direction.i: src/Direction.cpp.i
+src/Ray.i: src/Ray.cpp.i
 
-.PHONY : src/Direction.i
+.PHONY : src/Ray.i
 
 # target to preprocess a source file
-src/Direction.cpp.i:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Direction.cpp.i
-.PHONY : src/Direction.cpp.i
+src/Ray.cpp.i:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Ray.cpp.i
+.PHONY : src/Ray.cpp.i
 
-src/Direction.s: src/Direction.cpp.s
+src/Ray.s: src/Ray.cpp.s
 
-.PHONY : src/Direction.s
+.PHONY : src/Ray.s
 
 # target to generate assembly for a file
-src/Direction.cpp.s:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Direction.cpp.s
-.PHONY : src/Direction.cpp.s
+src/Ray.cpp.s:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Ray.cpp.s
+.PHONY : src/Ray.cpp.s
 
 src/Scene.o: src/Scene.cpp.o
 
@@ -258,33 +231,6 @@ src/Triangle.cpp.s:
 	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Triangle.cpp.s
 .PHONY : src/Triangle.cpp.s
 
-src/Vertex.o: src/Vertex.cpp.o
-
-.PHONY : src/Vertex.o
-
-# target to build an object file
-src/Vertex.cpp.o:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Vertex.cpp.o
-.PHONY : src/Vertex.cpp.o
-
-src/Vertex.i: src/Vertex.cpp.i
-
-.PHONY : src/Vertex.i
-
-# target to preprocess a source file
-src/Vertex.cpp.i:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Vertex.cpp.i
-.PHONY : src/Vertex.cpp.i
-
-src/Vertex.s: src/Vertex.cpp.s
-
-.PHONY : src/Vertex.s
-
-# target to generate assembly for a file
-src/Vertex.cpp.s:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Vertex.cpp.s
-.PHONY : src/Vertex.cpp.s
-
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -324,21 +270,15 @@ help:
 	@echo "... src/Camera.o"
 	@echo "... src/Camera.i"
 	@echo "... src/Camera.s"
-	@echo "... src/ColorDbl.o"
-	@echo "... src/ColorDbl.i"
-	@echo "... src/ColorDbl.s"
-	@echo "... src/Direction.o"
-	@echo "... src/Direction.i"
-	@echo "... src/Direction.s"
+	@echo "... src/Ray.o"
+	@echo "... src/Ray.i"
+	@echo "... src/Ray.s"
 	@echo "... src/Scene.o"
 	@echo "... src/Scene.i"
 	@echo "... src/Scene.s"
 	@echo "... src/Triangle.o"
 	@echo "... src/Triangle.i"
 	@echo "... src/Triangle.s"
-	@echo "... src/Vertex.o"
-	@echo "... src/Vertex.i"
-	@echo "... src/Vertex.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

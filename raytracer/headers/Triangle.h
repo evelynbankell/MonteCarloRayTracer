@@ -7,6 +7,7 @@
 
 #include "../glm/glm.hpp"
 #include "Definitions.h"
+#include "Ray.h"
 
 class Triangle {
 public:
@@ -14,12 +15,14 @@ public:
     Triangle(const Vertex &v0, const Vertex &v1, const Vertex &v2);
     ~Triangle();
 
-    //rayIntersection(Ray arg)
 
 private:
     Vertex v0, v1, v2;
     ColorDbl color;
     Direction normal;
+
+    bool rayIntersection(Ray& ray);
+
 };
 
 
