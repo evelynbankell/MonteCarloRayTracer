@@ -11,6 +11,9 @@ class Camera {
 public:
     Camera();
     ~Camera();
+
+private:
+
 };
 
 #endif //RAYTRACER_CAMERA_H

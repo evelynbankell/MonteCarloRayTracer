@@ -5,7 +5,5 @@
 #include "../headers/Camera.h"
 
 
-Camera::Camera(int n): num(n) {}
-int Camera::getNum() {
-    return num;
-}
+Camera::Camera() {}
+
