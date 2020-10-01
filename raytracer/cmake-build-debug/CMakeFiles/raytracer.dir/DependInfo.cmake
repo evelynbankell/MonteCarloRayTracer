@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/Camera.cpp" "/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Camera.cpp.o"
+  "/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/Pixel.cpp" "/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Pixel.cpp.o"
   "/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/Ray.cpp" "/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Ray.cpp.o"
   "/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/Scene.cpp" "/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Scene.cpp.o"
   "/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/Triangle.cpp" "/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Triangle.cpp.o"

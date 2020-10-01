@@ -1,5 +1,5 @@
 //
-// Created by Hannah Bergenroth on 2020-09-16.
+// Created by Hannah Bergenroth & Evelyn Bankell
 //
 
 #ifndef RAYTRACER_TRIANGLE_H
@@ -9,13 +9,21 @@
 #include "Definitions.h"
 #include "Ray.h"
 
+class Ray;
+
 class Triangle {
 public:
     Triangle();
     Triangle(const Vertex &v0, const Vertex &v1, const Vertex &v2, ColorDbl color);
-    ~Triangle();
+    //~Triangle();
 
-    bool rayIntersection(Ray& ray);
+    const Direction &getNormal() const;
+    const ColorDbl &getColor() const;
+
+    void setColor(const ColorDbl &color);
+    void setNormal();
+
+    bool rayIntersection(Ray *ray);
 
 
 private:

@@ -11,13 +11,14 @@
 class Scene {
 public:
     Scene();
-    ~Scene();
+    //~Scene();
+    bool is_intersected(Ray &ray);
+    ColorDbl rayTracer(Ray *ray);
 
 private:
-    Ray ray;
     Triangle triangleList[24];
 
-    Triangle check_intersection(Ray ray, Triangle triangleList[], int size);
+
 };
 
 

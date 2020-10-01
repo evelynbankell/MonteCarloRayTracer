@@ -1,5 +1,5 @@
 //
-// Created by Hannah Bergenroth on 2020-09-16.
+// Created by Hannah Bergenroth & Evelyn Bankell
 //
 
 #ifndef RAYTRACER_DEFINITIONS_H

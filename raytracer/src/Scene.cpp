@@ -1,5 +1,5 @@
 //
-// Created by Hannah Bergenroth on 2020-09-16.
+// Created by Hannah Bergenroth & Evelyn Bankell
 //
 
 #include "../headers/Scene.h"
@@ -51,13 +51,15 @@ Scene::Scene() {
 
 // Determines which triangle is intersected by the ray
 // Not sure if this is working ...
-Triangle Scene::check_intersection(Ray ray, Triangle triangleList[], int size) {
+bool Scene::is_intersected(Ray &ray) {
+    return true;
+    //(*it)->Triangle::rayIntersection(&ray);
 
-    for (int i = 0; i < size; i++) {
-        if (triangleList[i].Triangle::rayIntersection(&ray) == true) {
-            return triangleList[i];
-        }
-    }
+}
 
-    return triangleList[0];
+ColorDbl Scene::rayTracer(Ray *ray) {
+
+    ColorDbl color = ColorDbl(0, 255, 255);
+
+    return color;
 }

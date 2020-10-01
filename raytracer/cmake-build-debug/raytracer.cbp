@@ -86,6 +86,12 @@
 		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Definitions.h">
 			<Option target="raytracer"/>
 		</Unit>
+		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Pixel.h">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Ray.h">
+			<Option target="raytracer"/>
+		</Unit>
 		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Scene.h">
 			<Option target="raytracer"/>
 		</Unit>
@@ -95,10 +101,10 @@
 		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/Camera.cpp">
 			<Option target="raytracer"/>
 		</Unit>
-		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/Ray.cpp">
+		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/Pixel.cpp">
 			<Option target="raytracer"/>
 		</Unit>
-		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/Ray.h">
+		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/Ray.cpp">
 			<Option target="raytracer"/>
 		</Unit>
 		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/Scene.cpp">

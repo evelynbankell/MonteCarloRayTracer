@@ -1,5 +1,5 @@
 //
-// Created by Hannah Bergenroth on 2020-09-16.
+// Created by Hannah Bergenroth & Evelyn Bankell
 //
 
 #include "../headers/Triangle.h"
@@ -9,12 +9,12 @@ Triangle::Triangle(const Vertex &v0, const Vertex &v1, const Vertex &v2, ColorDb
 
 
 // Calculate intersection between a ray and triangle with the Möller-Trumbore Algorithm
-bool Triangle::rayIntersection(Ray& ray) {
+bool Triangle::rayIntersection(Ray *ray) {
 
     const float EPSILON = 0.0000001;
 
-    Vertex start = ray.getStart();
-    Vertex end = ray.getEnd();
+    Vertex start = ray->getStart();
+    Vertex end = ray->getEnd();
 
     Direction edge1 = v1 - v0;
     Direction edge2 = v2 - v0;
@@ -45,10 +45,29 @@ bool Triangle::rayIntersection(Ray& ray) {
     if (t > EPSILON) { // ray intersection
         //calculate out intersection point
         Vertex outIntersectionPoint = start + t * Vertex(D,0);
-        ray.setEnd(outIntersectionPoint); // set new end position
-        ray.setColor(this->color);
+        ray->setEnd(outIntersectionPoint); // set new end position
+        ray->setColor(this->color);
         return true;
     }
     else
         return false;
+}
+
+const ColorDbl &Triangle::getColor() const {
+    return color;
+}
+
+const Direction &Triangle::getNormal() const {
+    return normal;
+}
+
+void Triangle::setColor(const ColorDbl &color) {
+    Triangle::color = color;
+}
+
+void Triangle::setNormal() {
+    Direction d1 = Triangle::v1 - Triangle::v0;
+    Direction d2 = Triangle::v2 - Triangle::v0;
+
+    Triangle::normal = glm::normalize(glm::cross(d1, d2));
 }
