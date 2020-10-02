@@ -187,7 +187,7 @@ namespace detail
 	}
 */
 	template<length_t L, typename T, qualifier Q>
-	GLM_FUNC_QUALIFIER vec<L, T, Q> normalize(vec<L, T, Q> const& x)
+	GLM_FUNC_QUALIFIER vec<L, T, Q> normalize(f64 x)
 	{
 		GLM_STATIC_ASSERT(std::numeric_limits<T>::is_iec559, "'normalize' accepts only floating-point inputs");
 

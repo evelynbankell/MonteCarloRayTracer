@@ -1,5 +1,5 @@
 //
-// Created by Hannah Bergenroth on 2020-09-16.
+// Created by Hannah Bergenroth & Evelyn Bankell
 //
 
 #ifndef RAYTRACER_SCENE_H
@@ -7,6 +7,8 @@
 
 #include "Ray.h"
 #include "Triangle.h"
+#include "Definitions.h"
+#include "Tetrahedron.h"
 
 class Scene {
 public:
@@ -14,9 +16,12 @@ public:
     //~Scene();
     bool is_intersected(Ray &ray);
     ColorDbl rayTracer(Ray *ray);
+    Triangle triangleList[24];
+    Tetrahedron tetrahedron;
 
 private:
-    Triangle triangleList[24];
+    //Triangle triangleList[24];
+
 
 
 };

@@ -1,27 +1,35 @@
 //
 // Created by Hannah Bergenroth & Evelyn Bankell
 //
-
+#include "../glm/glm.hpp"
 #include "../headers/Ray.h"
 
-Ray::Ray(const Vertex start_point, const Vertex end_point ) : start(start_point), end(end_point) {}
+Ray::Ray(Vertex start_point, Vertex end_point ) {
+    end = end_point;
+    start = start_point;
+    color = ColorDbl (250, 0, 250);
+}
 
-const Vertex Ray::getStart() const {
+
+Ray::~Ray() {
+}
+
+Vertex Ray::getStart() {
     return start;
 }
 
-const Vertex Ray::getEnd() const {
+Vertex Ray::getEnd() {
     return end;
 }
 
-void Ray::setEnd(const Vertex end) {
+void Ray::setEnd(Vertex end) {
     Ray::end = end;
 }
 
-void Ray::setColor(const ColorDbl color) {
+void Ray::setColor(ColorDbl color) {
     Ray::color = color;
 }
 
-const ColorDbl Ray::getColor() const {
+ColorDbl Ray::getColor() {
     return color;
 }

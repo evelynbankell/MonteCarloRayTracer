@@ -1,6 +1,7 @@
 //
 // Created by Hannah Bergenroth & Evelyn Bankell
 //
+#include <iostream>
 
 #include "../headers/Scene.h"
 
@@ -46,20 +47,25 @@ Scene::Scene() {
     // Light blue color
     triangleList[22] = Triangle(Vertex(13.0,0.0,-5.0,1.0),Vertex(13.0,0.0,5.0,1.0),Vertex(10.0,-6.0,5.0,1.0), ColorDbl(0, 255, 255));
     triangleList[23] = Triangle(Vertex(13.0,0.0,-5.0,1.0),Vertex(10.0,-6.0,5.0,1.0),Vertex(10.0,-6.0,-5.0,1.0), ColorDbl(0, 255, 255));
+
 }
 
-
 // Determines which triangle is intersected by the ray
-// Not sure if this is working ...
 bool Scene::is_intersected(Ray &ray) {
-    return true;
-    //(*it)->Triangle::rayIntersection(&ray);
 
+    if(tetrahedron.rayIntersection(ray)) {
+        return true;
+    }
+    return false;
 }
 
 ColorDbl Scene::rayTracer(Ray *ray) {
 
-    ColorDbl color = ColorDbl(0, 255, 255);
+    if(is_intersected(*ray)) {
+        ColorDbl color = ColorDbl(55, 13, 255);
+    }
+
+    ColorDbl color = ColorDbl(255, 0, 255);
 
     return color;
 }

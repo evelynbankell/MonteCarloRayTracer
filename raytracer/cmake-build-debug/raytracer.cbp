@@ -86,6 +86,12 @@
 		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Definitions.h">
 			<Option target="raytracer"/>
 		</Unit>
+		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Light.cpp">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Light.h">
+			<Option target="raytracer"/>
+		</Unit>
 		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Pixel.h">
 			<Option target="raytracer"/>
 		</Unit>
@@ -93,6 +99,9 @@
 			<Option target="raytracer"/>
 		</Unit>
 		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Scene.h">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Tetrahedron.h">
 			<Option target="raytracer"/>
 		</Unit>
 		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Triangle.h">

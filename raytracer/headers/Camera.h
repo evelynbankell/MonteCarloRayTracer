@@ -10,16 +10,19 @@
 #include "Pixel.h"
 #include "Scene.h"
 
-const int SCREEN_RESOLUTION = 800;
+const int SCREEN_RESOLUTION = 10;
 
 
 class Camera {
 public:
     Camera(int eye_perspective);
-    //~Camera();
+    ~Camera();
 
-    Pixel* screen;
-    void render(Scene *s);
+    Pixel screen[SCREEN_RESOLUTION*SCREEN_RESOLUTION];
+    void render(Scene* scene);
+    void createImage();
+
+    double pixelSize = 0.0025;
 
 private:
     const Vertex eye1 = Vertex(-2, 0, 0, 1);
@@ -28,10 +31,11 @@ private:
     int eye;
     int resolution;
 
-    double pixelSize = 0.0025;
-
     Vertex start;
-    ColorDbl createPixel(Pixel *p, Scene *s, Vertex position);
+
+    ColorDbl createPixel(Scene* s, Vertex position);
+    double findMaxIntensity();
+
 
 };
 

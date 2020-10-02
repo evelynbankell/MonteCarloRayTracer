@@ -67,7 +67,7 @@ namespace glm
 	/// @see <a href="http://www.opengl.org/sdk/docs/manglsl/xhtml/normalize.xml">GLSL normalize man page</a>
 	/// @see <a href="http://www.opengl.org/registry/doc/GLSLangSpec.4.20.8.pdf">GLSL 4.20.8 specification, section 8.5 Geometric Functions</a>
 	template<length_t L, typename T, qualifier Q>
-	GLM_FUNC_DECL vec<L, T, Q> normalize(vec<L, T, Q> const& x);
+	GLM_FUNC_DECL vec<L, T, Q> normalize(f64 x);
 
 	/// If dot(Nref, I) < 0.0, return N, otherwise, return -N.
 	///

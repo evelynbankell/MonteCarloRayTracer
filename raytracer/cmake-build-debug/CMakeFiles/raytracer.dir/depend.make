@@ -157,6 +157,7 @@ CMakeFiles/raytracer.dir/src/Camera.cpp.o: ../headers/Definitions.h
 CMakeFiles/raytracer.dir/src/Camera.cpp.o: ../headers/Pixel.h
 CMakeFiles/raytracer.dir/src/Camera.cpp.o: ../headers/Ray.h
 CMakeFiles/raytracer.dir/src/Camera.cpp.o: ../headers/Scene.h
+CMakeFiles/raytracer.dir/src/Camera.cpp.o: ../headers/Tetrahedron.h
 CMakeFiles/raytracer.dir/src/Camera.cpp.o: ../headers/Triangle.h
 CMakeFiles/raytracer.dir/src/Camera.cpp.o: ../src/Camera.cpp
 
@@ -627,6 +628,7 @@ CMakeFiles/raytracer.dir/src/Scene.cpp.o: ../glm/vector_relational.hpp
 CMakeFiles/raytracer.dir/src/Scene.cpp.o: ../headers/Definitions.h
 CMakeFiles/raytracer.dir/src/Scene.cpp.o: ../headers/Ray.h
 CMakeFiles/raytracer.dir/src/Scene.cpp.o: ../headers/Scene.h
+CMakeFiles/raytracer.dir/src/Scene.cpp.o: ../headers/Tetrahedron.h
 CMakeFiles/raytracer.dir/src/Scene.cpp.o: ../headers/Triangle.h
 CMakeFiles/raytracer.dir/src/Scene.cpp.o: ../src/Scene.cpp
 
@@ -942,6 +944,7 @@ CMakeFiles/raytracer.dir/src/main.cpp.o: ../headers/Definitions.h
 CMakeFiles/raytracer.dir/src/main.cpp.o: ../headers/Pixel.h
 CMakeFiles/raytracer.dir/src/main.cpp.o: ../headers/Ray.h
 CMakeFiles/raytracer.dir/src/main.cpp.o: ../headers/Scene.h
+CMakeFiles/raytracer.dir/src/main.cpp.o: ../headers/Tetrahedron.h
 CMakeFiles/raytracer.dir/src/main.cpp.o: ../headers/Triangle.h
 CMakeFiles/raytracer.dir/src/main.cpp.o: ../src/main.cpp
 

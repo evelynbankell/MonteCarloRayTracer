@@ -158,6 +158,7 @@ CMakeFiles/raytracer.dir/src/Camera.cpp.o
  /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Pixel.h
  /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Ray.h
  /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Scene.h
+ /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Tetrahedron.h
  /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Triangle.h
  /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/Camera.cpp
 CMakeFiles/raytracer.dir/src/Pixel.cpp.o
@@ -628,6 +629,7 @@ CMakeFiles/raytracer.dir/src/Scene.cpp.o
  /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Definitions.h
  /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Ray.h
  /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Scene.h
+ /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Tetrahedron.h
  /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Triangle.h
  /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/Scene.cpp
 CMakeFiles/raytracer.dir/src/Triangle.cpp.o
@@ -943,5 +945,6 @@ CMakeFiles/raytracer.dir/src/main.cpp.o
  /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Pixel.h
  /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Ray.h
  /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Scene.h
+ /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Tetrahedron.h
  /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Triangle.h
  /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/main.cpp

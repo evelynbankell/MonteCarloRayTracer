@@ -5,7 +5,7 @@
 #ifndef RAYTRACER_RAY_H
 #define RAYTRACER_RAY_H
 
-
+#include "../glm/glm.hpp"
 #include "Definitions.h"
 #include "Triangle.h"
 
@@ -13,15 +13,17 @@ class Triangle;
 
 class Ray {
 public:
-    Ray(const Vertex start_point, const Vertex end_point);
-    //~Ray();
+    Ray(Vertex start_point, Vertex end_point);
 
-    const Vertex getEnd() const;
-    const Vertex getStart() const;
-    const ColorDbl getColor() const;
 
-    void setEnd(const Vertex end);
-    void setColor(const ColorDbl color);
+    ~Ray();
+
+    Vertex getEnd();
+    Vertex getStart();
+    ColorDbl getColor();
+
+    void setEnd(Vertex end);
+    void setColor(ColorDbl color);
 
 private:
     Vertex start, end;
