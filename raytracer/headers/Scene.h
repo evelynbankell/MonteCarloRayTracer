@@ -14,13 +14,17 @@ class Scene {
 public:
     Scene();
     //~Scene();
-    bool is_intersected(Ray &ray);
-    ColorDbl rayTracer(Ray *ray);
+    bool is_intersected(Ray ray);
+    ColorDbl rayTracer(Ray ray);
     Triangle triangleList[24];
     Tetrahedron tetrahedron;
 
+    Ray rayIntersection(Ray r);
+
 private:
     //Triangle triangleList[24];
+
+
 
 
 

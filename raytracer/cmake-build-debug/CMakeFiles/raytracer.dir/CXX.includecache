@@ -1014,9 +1014,25 @@ detail/setup.hpp
 detail/func_vector_relational.inl
 /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_vector_relational.inl
 
+/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Camera.h
+../glm/glm.hpp
+/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/glm.hpp
+Definitions.h
+/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Definitions.h
+Pixel.h
+/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Pixel.h
+Scene.h
+/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Scene.h
+
 /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Definitions.h
 ../glm/glm.hpp
 /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/glm.hpp
+
+/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Pixel.h
+Definitions.h
+/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Definitions.h
+Ray.h
+/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Ray.h
 
 /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Ray.h
 ../glm/glm.hpp
@@ -1050,9 +1066,15 @@ Definitions.h
 Ray.h
 /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Ray.h
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/Scene.cpp
+/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/Camera.cpp
 iostream
 -
-../headers/Scene.h
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Scene.h
+stdio.h
+-
+cstdlib
+-
+cmath
+-
+../headers/Camera.h
+/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Camera.h
 

@@ -10,7 +10,7 @@
 #include "Pixel.h"
 #include "Scene.h"
 
-const int SCREEN_RESOLUTION = 10;
+const int SCREEN_RESOLUTION = 500;
 
 
 class Camera {
@@ -25,8 +25,13 @@ public:
     double pixelSize = 0.0025;
 
 private:
-    const Vertex eye1 = Vertex(-2, 0, 0, 1);
+    const Vertex eye1 = Vertex(-1, 0, 0, 1);
     const Vertex eye2 = Vertex(-1, 0, 0, 1);
+
+    const Vertex c1 = Vertex(0, -1, 1, 1);
+    const Vertex c2 = Vertex(0, 1, 1, 1);
+    const Vertex c3 = Vertex(0, -1, -1, 1);
+    const Vertex c4 = Vertex(0, 1, -1, 1);
 
     int eye;
     int resolution;

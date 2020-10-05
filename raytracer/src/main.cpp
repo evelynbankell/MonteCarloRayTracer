@@ -12,8 +12,5 @@ int main() {
     camera.render(&scene);
     camera.createImage();
 
-
-
-
     return 0;
 }

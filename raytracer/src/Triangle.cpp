@@ -2,6 +2,8 @@
 // Created by Hannah Bergenroth & Evelyn Bankell
 //
 
+#include <iostream>
+
 #include "../headers/Triangle.h"
 Triangle::Triangle() {
 }

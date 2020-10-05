@@ -8,7 +8,7 @@
 Pixel::Pixel(ColorDbl color, float intensity ) : color(color), intensity(intensity) {}
 
 Pixel::Pixel() {
-    color = ColorDbl (0,255,255);
+    color = ColorDbl (0,0,0);
     intensity = 1;
 }
 

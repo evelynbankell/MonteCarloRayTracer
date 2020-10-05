@@ -123,33 +123,6 @@ raytracer/fast:
 	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/build
 .PHONY : raytracer/fast
 
-headers/Light.o: headers/Light.cpp.o
-
-.PHONY : headers/Light.o
-
-# target to build an object file
-headers/Light.cpp.o:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/headers/Light.cpp.o
-.PHONY : headers/Light.cpp.o
-
-headers/Light.i: headers/Light.cpp.i
-
-.PHONY : headers/Light.i
-
-# target to preprocess a source file
-headers/Light.cpp.i:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/headers/Light.cpp.i
-.PHONY : headers/Light.cpp.i
-
-headers/Light.s: headers/Light.cpp.s
-
-.PHONY : headers/Light.s
-
-# target to generate assembly for a file
-headers/Light.cpp.s:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/headers/Light.cpp.s
-.PHONY : headers/Light.cpp.s
-
 src/Camera.o: src/Camera.cpp.o
 
 .PHONY : src/Camera.o
@@ -176,6 +149,33 @@ src/Camera.s: src/Camera.cpp.s
 src/Camera.cpp.s:
 	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Camera.cpp.s
 .PHONY : src/Camera.cpp.s
+
+src/Light.o: src/Light.cpp.o
+
+.PHONY : src/Light.o
+
+# target to build an object file
+src/Light.cpp.o:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Light.cpp.o
+.PHONY : src/Light.cpp.o
+
+src/Light.i: src/Light.cpp.i
+
+.PHONY : src/Light.i
+
+# target to preprocess a source file
+src/Light.cpp.i:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Light.cpp.i
+.PHONY : src/Light.cpp.i
+
+src/Light.s: src/Light.cpp.s
+
+.PHONY : src/Light.s
+
+# target to generate assembly for a file
+src/Light.cpp.s:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Light.cpp.s
+.PHONY : src/Light.cpp.s
 
 src/Pixel.o: src/Pixel.cpp.o
 
@@ -321,12 +321,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... raytracer"
-	@echo "... headers/Light.o"
-	@echo "... headers/Light.i"
-	@echo "... headers/Light.s"
 	@echo "... src/Camera.o"
 	@echo "... src/Camera.i"
 	@echo "... src/Camera.s"
+	@echo "... src/Light.o"
+	@echo "... src/Light.i"
+	@echo "... src/Light.s"
 	@echo "... src/Pixel.o"
 	@echo "... src/Pixel.i"
 	@echo "... src/Pixel.s"

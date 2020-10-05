@@ -30,20 +30,25 @@ Camera::~Camera() {
 }
 
 void Camera::render(Scene* s) {
+
     for (int y = 0; y < SCREEN_RESOLUTION; y++) {
         for (int x = 0; x < SCREEN_RESOLUTION; x++) {
-            Pixel p = screen[x + SCREEN_RESOLUTION * y];
+            //Pixel p = screen[x + SCREEN_RESOLUTION * y];
 
-            Vertex position = Vertex(0, 1 - (x * pixelSize), 1 - (y * pixelSize), 1);
-            p.color = createPixel(s, position);
+            Vertex pixelPosition = c1 + Vertex(0, pixelSize / 2 + x * pixelSize, -(pixelSize / 2 + y * pixelSize), 0);
 
-            std::cout << x << " " << 1 - (x * pixelSize) << std::endl;
+
+            Vertex position = Vertex(0, 1 - x * pixelSize, 1 - y * pixelSize, 1);
+            screen[x + SCREEN_RESOLUTION * y].color = createPixel(s, position);
+            //std::cout << p.color.x << " " << p.color.y << " " << p.color.z << std::endl;
+
+            //std::cout << x << " " << 1 - (x * pixelSize) << std::endl;
         }
     }
 }
 
 ColorDbl Camera::createPixel(Scene* s, Vertex position) {
-    ColorDbl color = ColorDbl(0, 255, 255);
+    ColorDbl color = ColorDbl(0, 0, 0);
 
     Ray ray = Ray(start, position);
 
@@ -59,14 +64,15 @@ ColorDbl Camera::createPixel(Scene* s, Vertex position) {
     norm.z = normP.z - normS.z;
     norm.w = 1;
 
-    ray.setEnd(norm);
-    color = s->rayTracer(&ray);
+    ray.setEnd(norm *= 1000);
+    color += s->rayTracer(ray);
+    //std::cout << color.x << " " << color.y << " " << color.z << std::endl;
 
     return color;
 }
 
 void Camera::createImage() {
-        FILE* Output = fopen("Output.png", "wb");
+        FILE* Output = fopen("Output1.png", "wb");
 
         fprintf(Output, "P6\n%i %i 255\n", SCREEN_RESOLUTION, SCREEN_RESOLUTION);
 

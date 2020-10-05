@@ -86,9 +86,6 @@
 		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Definitions.h">
 			<Option target="raytracer"/>
 		</Unit>
-		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Light.cpp">
-			<Option target="raytracer"/>
-		</Unit>
 		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Light.h">
 			<Option target="raytracer"/>
 		</Unit>
@@ -108,6 +105,9 @@
 			<Option target="raytracer"/>
 		</Unit>
 		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/Camera.cpp">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/Light.cpp">
 			<Option target="raytracer"/>
 		</Unit>
 		<Unit filename="/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/Pixel.cpp">

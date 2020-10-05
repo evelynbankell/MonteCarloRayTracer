@@ -7,7 +7,7 @@
 Ray::Ray(Vertex start_point, Vertex end_point ) {
     end = end_point;
     start = start_point;
-    color = ColorDbl (250, 0, 250);
+    //color = ColorDbl (255, 0, 0);
 }
 
 
