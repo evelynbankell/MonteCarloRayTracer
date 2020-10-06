@@ -2,35 +2,35 @@
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff
-Ray-tracer/.idea/**/workspace.xml
-Ray-tracer/.idea/**/tasks.xml
-Ray-tracer/.idea/**/usage.statistics.xml
-Ray-tracer/.idea/**/dictionaries
-Ray-tracer/.idea/**/shelf
+raytracer/.idea/**/workspace.xml
+raytracer/.idea/**/tasks.xml
+raytracer/.idea/**/usage.statistics.xml
+raytracer/.idea/**/dictionaries
+raytracer/.idea/**/shelf
 
 # Generated files
-Ray-tracer/.idea/**/contentModel.xml
+raytracer/.idea/**/contentModel.xml
 
 #DS_Store (Mac)
 
 .DS_Store
-Ray-tracer/.DS_Store
+raytracer/.DS_Store
 
 #glm
-Ray-tracer/glm
+raytracer/glm
 
 # Sensitive or high-churn files
-Ray-tracer/.idea/**/dataSources/
-Ray-tracer/.idea/**/dataSources.ids
-Ray-tracer/.idea/**/dataSources.local.xml
-Ray-tracer/.idea/**/sqlDataSources.xml
-Ray-tracer/.idea/**/dynamic.xml
-Ray-tracer/.idea/**/uiDesigner.xml
-Ray-tracer/.idea/**/dbnavigator.xml
+raytracer/.idea/**/dataSources/
+raytracer/.idea/**/dataSources.ids
+raytracer/.idea/**/dataSources.local.xml
+raytracer/.idea/**/sqlDataSources.xml
+raytracer/.idea/**/dynamic.xml
+raytracer/.idea/**/uiDesigner.xml
+raytracer/.idea/**/dbnavigator.xml
 
 # Gradle
-Ray-tracer/.idea/**/gradle.xml
-Ray-tracer/.idea/**/libraries
+raytracer/.idea/**/gradle.xml
+raytracer/.idea/**/libraries
 
 # Gradle and Maven with auto-import
 # When using Gradle or Maven with auto-import, you should exclude module files,
@@ -49,7 +49,7 @@ Ray-tracer/.idea/**/libraries
 cmake-build-*/
 
 # Mongo Explorer plugin
-Ray-tracer/.idea/**/mongoSettings.xml
+raytracer/.idea/**/mongoSettings.xml
 
 # File-based project format
 *.iws
@@ -64,7 +64,7 @@ out/
 atlassian-ide-plugin.xml
 
 # Cursive Clojure plugin
-Ray-tracer/.idea/replstate.xml
+raytracer/.idea/replstate.xml
 
 # Crashlytics plugin (for Android Studio and IntelliJ)
 com_crashlytics_export_strings.xml
@@ -73,7 +73,7 @@ crashlytics-build.properties
 fabric.properties
 
 # Editor-based Rest Client
-Ray-tracer/.idea/httpRequests
+raytracer/.idea/httpRequests
 
 # Android studio 3.1+ serialized cache file
-Ray-tracer/.idea/caches/build_file_checksums.ser
+raytracer/.idea/caches/build_file_checksums.ser
