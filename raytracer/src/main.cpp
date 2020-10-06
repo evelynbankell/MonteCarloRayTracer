@@ -7,9 +7,10 @@
 //This is a main function
 int main() {
 
-    Scene scene;
+
     Camera camera(1);
-    camera.render(&scene);
+    Scene scene;
+    camera.render(scene);
     camera.createImage();
 
     return 0;

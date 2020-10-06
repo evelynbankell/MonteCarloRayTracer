@@ -19,7 +19,7 @@ public:
     Triangle triangleList[24];
     Tetrahedron tetrahedron;
 
-    Ray rayIntersection(Ray r);
+    void rayIntersection(Ray &r);
 
 private:
     //Triangle triangleList[24];

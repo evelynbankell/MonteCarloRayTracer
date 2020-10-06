@@ -5,13 +5,10 @@
 #include "../headers/Pixel.h"
 
 
-Pixel::Pixel(ColorDbl color, float intensity ) : color(color), intensity(intensity) {}
-
 Pixel::Pixel() {
     color = ColorDbl (0,0,0);
-    intensity = 1;
 }
 
-void Pixel::setColor(ColorDbl &color) {
-    Pixel::color = color;
+void Pixel::setColor(ColorDbl _color) {
+    color = _color;
 }

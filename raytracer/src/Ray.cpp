@@ -4,10 +4,9 @@
 #include "../glm/glm.hpp"
 #include "../headers/Ray.h"
 
-Ray::Ray(Vertex start_point, Vertex end_point ) {
-    end = end_point;
+Ray::Ray(Vertex start_point, Direction dir ) {
+    direction = dir;
     start = start_point;
-    //color = ColorDbl (255, 0, 0);
 }
 
 
@@ -22,12 +21,17 @@ Vertex Ray::getEnd() {
     return end;
 }
 
-void Ray::setEnd(Vertex end) {
-    Ray::end = end;
+Direction Ray::getDir() {
+    return direction;
 }
 
-void Ray::setColor(ColorDbl color) {
-    Ray::color = color;
+
+void Ray::setEnd(Vertex _end) {
+    end = _end;
+}
+
+void Ray::setColor(ColorDbl _color) {
+    color = _color;
 }
 
 ColorDbl Ray::getColor() {

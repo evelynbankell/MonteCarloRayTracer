@@ -23,7 +23,7 @@ public:
     void setColor(const ColorDbl &color);
     void setNormal();
 
-    bool rayIntersection(Ray *ray);
+    bool rayIntersection(Ray &ray);
 
 
 private:

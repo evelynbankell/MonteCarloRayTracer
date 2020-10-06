@@ -13,7 +13,7 @@ class Triangle;
 
 class Ray {
 public:
-    Ray(Vertex start_point, Vertex end_point);
+    Ray(Vertex start_point, Direction dir);
 
 
     ~Ray();
@@ -21,13 +21,14 @@ public:
     Vertex getEnd();
     Vertex getStart();
     ColorDbl getColor();
+    Direction getDir();
 
     void setEnd(Vertex end);
     void setColor(ColorDbl color);
 
 private:
     Vertex start, end;
-    Triangle *t;
+    Direction direction;
     ColorDbl color;
 };
 

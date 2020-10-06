@@ -27,15 +27,12 @@ public:
 
     Triangle triangles[4];
 
-    bool rayIntersection(Ray r) {
+    void rayIntersection(Ray &r) {
         bool is_hit = false;
 
         for (int i = 0; i < 4; i++) {
-            if (triangles[i].rayIntersection(&r)) {
-                is_hit = true;
-            }
+             triangles[i].rayIntersection(r);
         }
-        return is_hit;
     }
 
 private:

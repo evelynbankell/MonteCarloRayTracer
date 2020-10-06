@@ -11,13 +11,16 @@
 class Pixel {
 public:
     Pixel();
-    Pixel(ColorDbl color, float intensity);
     ~Pixel() = default;
 
-    void setColor(ColorDbl &color);
-    ColorDbl color;
+    void setColor(ColorDbl color);
+    ColorDbl getColor() { return color; }
+
+
+
 
 private:
+    ColorDbl color;
     float intensity;
 
 };

@@ -1015,8 +1015,12 @@ detail/func_vector_relational.inl
 /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_vector_relational.inl
 
 /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Camera.h
+vector
+-
 ../glm/glm.hpp
 /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/glm.hpp
+../glm/geometric.hpp
+/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/geometric.hpp
 Definitions.h
 /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Definitions.h
 Pixel.h
@@ -1074,6 +1078,12 @@ stdio.h
 cstdlib
 -
 cmath
+-
+../headers/Camera.h
+/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Camera.h
+
+/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/main.cpp
+iostream
 -
 ../headers/Camera.h
 /Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Camera.h

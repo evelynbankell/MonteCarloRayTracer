@@ -11,4 +11,6 @@ using Vertex = glm::dvec4;
 using Direction = glm::dvec3;
 using ColorDbl = glm::dvec3;
 
+
+
 #endif //RAYTRACER_DEFINITIONS_H
