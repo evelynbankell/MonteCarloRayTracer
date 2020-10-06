@@ -9,6 +9,7 @@
 #include "Triangle.h"
 #include "Definitions.h"
 #include "Tetrahedron.h"
+#include "Sphere.h"
 
 class Scene {
 public:
@@ -18,6 +19,7 @@ public:
     ColorDbl rayTracer(Ray ray);
     Triangle triangleList[24];
     Tetrahedron tetrahedron;
+    Sphere sphere;
 
     void rayIntersection(Ray &r);
 

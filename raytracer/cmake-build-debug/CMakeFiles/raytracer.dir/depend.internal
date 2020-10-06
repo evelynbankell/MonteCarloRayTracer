@@ -158,6 +158,7 @@ CMakeFiles/raytracer.dir/src/Camera.cpp.o
  /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Pixel.h
  /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Ray.h
  /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Scene.h
+ /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Sphere.h
  /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Tetrahedron.h
  /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Triangle.h
  /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/src/Camera.cpp
@@ -786,6 +787,7 @@ CMakeFiles/raytracer.dir/src/Scene.cpp.o
  /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Definitions.h
  /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Ray.h
  /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Scene.h
+ /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Sphere.h
  /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Tetrahedron.h
  /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Triangle.h
  /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/src/Scene.cpp
@@ -1102,6 +1104,7 @@ CMakeFiles/raytracer.dir/src/main.cpp.o
  /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Pixel.h
  /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Ray.h
  /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Scene.h
+ /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Sphere.h
  /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Tetrahedron.h
  /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Triangle.h
  /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/src/main.cpp

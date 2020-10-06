@@ -13,7 +13,7 @@ Triangle::~Triangle() {
 }
 
 // Calculate intersection between a ray and triangle with the Möller-Trumbore Algorithm
-bool Triangle::rayIntersection(Ray &ray) {
+bool Triangle::rayIntersection(Ray &ray, double &minDist) {
 
     const float EPSILON = 0.0000001;
 
@@ -44,10 +44,14 @@ bool Triangle::rayIntersection(Ray &ray) {
         return false;
 
     double t = f * glm::dot(Q, edge2);
+
     if (t > EPSILON) { // ray intersection
-        //calculate out intersection point
-        ray.setEnd(start + glm::dvec4(ray.getDir(),1) * t); // set new end position
-        ray.setColor(this->color);
+        if(glm::length(Vertex(ray.getStart() + glm::dvec4(ray.getDir(),1) * t)) < minDist) {
+            //calculate out intersection point
+            ray.setEnd(ray.getStart() + glm::dvec4(ray.getDir(),1) * t); // set new end position
+            ray.setColor(this->getColor());
+            minDist = glm::length(ray.getEnd()-ray.getStart());
+        }
         return true;
     }
     else

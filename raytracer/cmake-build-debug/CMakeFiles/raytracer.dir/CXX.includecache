@@ -1014,29 +1014,9 @@ detail/setup.hpp
 detail/func_vector_relational.inl
 /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_vector_relational.inl
 
-/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Camera.h
-vector
--
-../glm/glm.hpp
-/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/glm.hpp
-../glm/geometric.hpp
-/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/geometric.hpp
-Definitions.h
-/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Definitions.h
-Pixel.h
-/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Pixel.h
-Scene.h
-/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Scene.h
-
 /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Definitions.h
 ../glm/glm.hpp
 /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/glm.hpp
-
-/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Pixel.h
-Definitions.h
-/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Definitions.h
-Ray.h
-/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Ray.h
 
 /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Ray.h
 ../glm/glm.hpp
@@ -1055,6 +1035,16 @@ Definitions.h
 /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Definitions.h
 Tetrahedron.h
 /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Tetrahedron.h
+Sphere.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Sphere.h
+
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Sphere.h
+Definitions.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Definitions.h
+Ray.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Ray.h
+math.h
+-
 
 /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Tetrahedron.h
 Definitions.h
@@ -1070,15 +1060,9 @@ Definitions.h
 Ray.h
 /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Ray.h
 
-/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/src/Camera.cpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/src/Scene.cpp
 iostream
 -
-stdio.h
--
-cstdlib
--
-cmath
--
-../headers/Camera.h
-/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Camera.h
+../headers/Scene.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Scene.h
 

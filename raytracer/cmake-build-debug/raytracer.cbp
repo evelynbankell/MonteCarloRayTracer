@@ -100,6 +100,9 @@
 		<Unit filename="/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Scene.h">
 			<Option target="raytracer"/>
 		</Unit>
+		<Unit filename="/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Sphere.h">
+			<Option target="raytracer"/>
+		</Unit>
 		<Unit filename="/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Tetrahedron.h">
 			<Option target="raytracer"/>
 		</Unit>

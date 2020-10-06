@@ -33,9 +33,6 @@ Camera::~Camera() {
 
 void Camera::render(Scene s) {
 
-    std::cout  << screen[0][0].getColor().x << std::endl;
-
-
     for (int y = 0; y < 800; y++) {
         for (int x = 0; x < 800; x++) {
 
@@ -49,8 +46,8 @@ void Camera::render(Scene s) {
             Direction testN = Direction (test.x / length_of_test, test.y / length_of_test, test.z / length_of_test);
 
 
-            std::cout << "x: " << test.x << " " << test.y <<  " " << test.z << std::endl;
-            std::cout << testN.x << " " << testN.y <<  " " << testN.z << std::endl;
+            //std::cout << "x: " << test.x << " " << test.y <<  " " << test.z << std::endl;
+            //std::cout << testN.x << " " << testN.y <<  " " << testN.z << std::endl;
             Ray ray (start, testN);
             s.rayIntersection(ray);
             ColorDbl color = ray.getColor();

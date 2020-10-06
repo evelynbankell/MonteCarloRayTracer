@@ -48,30 +48,21 @@ Scene::Scene() {
     triangleList[22] = Triangle(Vertex(13.0,0.0,-5.0,1.0),Vertex(13.0,0.0,5.0,1.0),Vertex(10.0,-6.0,5.0,1.0), ColorDbl(0, 255, 255));
     triangleList[23] = Triangle(Vertex(13.0,0.0,-5.0,1.0),Vertex(10.0,-6.0,5.0,1.0),Vertex(10.0,-6.0,-5.0,1.0), ColorDbl(0, 255, 255));
 
+    tetrahedron = Tetrahedron(ColorDbl(0,0,0));
+
+    sphere = Sphere(1.5, Vertex(11,0,0,1), ColorDbl(255,99,71));
 }
 
 void Scene::rayIntersection(Ray &r) {
+    double minDist = 1000;
+
+    tetrahedron.rayIntersection(r, minDist);
+
+    sphere.rayIntersection(r,minDist);
 
     for (int i = 0; i < 24; i++) {
-        triangleList[i].rayIntersection(r);
+        triangleList[i].rayIntersection(r, minDist);
     }
 
-    tetrahedron.rayIntersection(r);
 
-}
-
-
-ColorDbl Scene::rayTracer(Ray ray) {
-
-
-    rayIntersection(ray);
-
-    //ColorDbl color = ColorDbl(255, 0, 255);
-    //ColorDbl color = ray.getColor();
-    //std::cout << color.x << " " << color.y << " " << color.z << std::endl;
-    std::cout << "after " << ray.getColor().x << " " << ray.getColor().y << " " << ray.getColor().z << std::endl;
-
-    ColorDbl color = ray.getColor();
-
-    return color;
 }
