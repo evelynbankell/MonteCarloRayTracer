@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="raytracer" targetName="raytracer" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f2215b11-ce98-409d-89eb-47796bb3cdc7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/MonteCarloRayTracer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Camera.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Camera.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Light.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Light.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Pixel.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Pixel.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Ray.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Ray.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Scene.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Scene.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Triangle.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Triangle.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/cmake-build-debug/raytracer" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/cmake-build-debug/raytracer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/cmake-build-debug/raytracer.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/cmake-build-debug/raytracer.cbp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iUjft2u4Zy9xU0FIIadj7nYQfD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration name="raytracer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="raytracer" TARGET_NAME="raytracer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="raytracer" RUN_TARGET_NAME="raytracer">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2215b11-ce98-409d-89eb-47796bb3cdc7" name="Default Changelist" comment="" />
+      <created>1601969170567</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601969170567</updated>
+      <workItem from="1601969172918" duration="5613000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="253" y="52" key="CommitChangelistDialog2" timestamp="1601984554347">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="253" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1601984554347" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1601990172488">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1601990172488" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1601983709461" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1601990172487">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1601990172487" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1601983709458" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1601990172486">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1601990172486" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1601983709454" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1601990172487">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1601990172487" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1601983709460" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1601983324264">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1601983324264" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1601983324262">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1601983324262" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1601983324261">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1601983324261" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1601983324263">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1601983324263" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1601983123377">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1601983123377" />
+  </component>
+</project>

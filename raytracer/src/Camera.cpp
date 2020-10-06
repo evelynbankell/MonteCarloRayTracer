@@ -62,7 +62,7 @@ void Camera::render(Scene s) {
 }
 
 void Camera::createImage() {
-        FILE* Output = fopen("Output1.ppm", "wb");
+        FILE* Output = fopen("Output.ppm", "wb");
 
         fprintf(Output, "P6\n%i %i 255\n", SCREEN_RESOLUTION, SCREEN_RESOLUTION);
 

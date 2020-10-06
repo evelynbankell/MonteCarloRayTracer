@@ -6,67 +6,67 @@
 
 #IncludeRegexTransform: 
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/common.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/common.hpp
 detail/qualifier.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/qualifier.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/qualifier.hpp
 detail/_fixes.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/_fixes.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/_fixes.hpp
 detail/func_common.inl
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_common.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_common.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/_fixes.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/_fixes.hpp
 cmath
 -
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/_swizzle.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/_swizzle.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/_swizzle_func.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/_swizzle_func.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/_vectorize.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/_vectorize.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/compute_common.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/compute_common.hpp
 setup.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/setup.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/setup.hpp
 limits
 -
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/compute_vector_relational.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/compute_vector_relational.hpp
 setup.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/setup.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/setup.hpp
 limits
 -
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_common.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_common.inl
 ../vector_relational.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/vector_relational.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/vector_relational.hpp
 compute_common.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/compute_common.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/compute_common.hpp
 type_vec1.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec1.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec1.hpp
 type_vec2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec2.hpp
 type_vec3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec3.hpp
 type_vec4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec4.hpp
 _vectorize.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/_vectorize.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/_vectorize.hpp
 limits
 -
 func_common_simd.inl
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_common_simd.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_common_simd.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_common_simd.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_common_simd.inl
 ../simd/common.h
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/simd/common.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/simd/common.h
 immintrin.h
 -
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_exponential.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_exponential.inl
 ../vector_relational.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/vector_relational.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/vector_relational.hpp
 _vectorize.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/_vectorize.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/_vectorize.hpp
 limits
 -
 cmath
@@ -74,95 +74,95 @@ cmath
 cassert
 -
 func_exponential_simd.inl
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_exponential_simd.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_exponential_simd.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_exponential_simd.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_exponential_simd.inl
 ../simd/exponential.h
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/simd/exponential.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/simd/exponential.h
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_geometric.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_geometric.inl
 ../exponential.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/exponential.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/exponential.hpp
 ../common.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/common.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/common.hpp
 func_geometric_simd.inl
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_geometric_simd.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_geometric_simd.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_geometric_simd.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_geometric_simd.inl
 ../simd/geometric.h
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/simd/geometric.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/simd/geometric.h
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_integer.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_integer.inl
 _vectorize.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/_vectorize.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/_vectorize.hpp
 intrin.h
 -
 limits
 -
 func_integer_simd.inl
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_integer_simd.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_integer_simd.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_integer_simd.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_integer_simd.inl
 ../simd/integer.h
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/simd/integer.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/simd/integer.h
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_matrix.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_matrix.inl
 ../geometric.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/geometric.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/geometric.hpp
 limits
 -
 func_matrix_simd.inl
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_matrix_simd.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_matrix_simd.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_matrix_simd.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_matrix_simd.inl
 type_mat4x4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat4x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat4x4.hpp
 ../geometric.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/geometric.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/geometric.hpp
 ../simd/matrix.h
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/simd/matrix.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/simd/matrix.h
 cstring
 -
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_packing.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_packing.inl
 ../common.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/common.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/common.hpp
 type_half.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_half.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_half.hpp
 func_packing_simd.inl
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_packing_simd.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_packing_simd.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_packing_simd.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_packing_simd.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_trigonometric.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_trigonometric.inl
 _vectorize.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/_vectorize.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/_vectorize.hpp
 cmath
 -
 limits
 -
 func_trigonometric_simd.inl
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_trigonometric_simd.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_trigonometric_simd.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_trigonometric_simd.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_trigonometric_simd.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_vector_relational.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_vector_relational.inl
 func_vector_relational_simd.inl
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_vector_relational_simd.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_vector_relational_simd.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_vector_relational_simd.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_vector_relational_simd.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/qualifier.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/qualifier.hpp
 setup.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/setup.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/setup.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/setup.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/setup.hpp
 cassert
 -
 cstddef
 -
 ../simd/platform.h
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/simd/platform.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/simd/platform.h
 CL/sycl.hpp
 -
 limits
@@ -172,527 +172,527 @@ cstdint
 type_traits
 -
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_half.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_half.hpp
 setup.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/setup.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/setup.hpp
 type_half.inl
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_half.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_half.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_half.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_half.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat2x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat2x2.hpp
 type_vec2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec2.hpp
 limits
 -
 cstddef
 -
 type_mat2x2.inl
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat2x2.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat2x2.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat2x2.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat2x2.inl
 ../matrix.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/matrix.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/matrix.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat2x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat2x3.hpp
 type_vec2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec2.hpp
 type_vec3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec3.hpp
 limits
 -
 cstddef
 -
 type_mat2x3.inl
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat2x3.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat2x3.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat2x3.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat2x3.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat2x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat2x4.hpp
 type_vec2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec2.hpp
 type_vec4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec4.hpp
 limits
 -
 cstddef
 -
 type_mat2x4.inl
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat2x4.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat2x4.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat2x4.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat2x4.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat3x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat3x2.hpp
 type_vec2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec2.hpp
 type_vec3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec3.hpp
 limits
 -
 cstddef
 -
 type_mat3x2.inl
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat3x2.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat3x2.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat3x2.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat3x2.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat3x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat3x3.hpp
 type_vec3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec3.hpp
 limits
 -
 cstddef
 -
 type_mat3x3.inl
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat3x3.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat3x3.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat3x3.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat3x3.inl
 ../matrix.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/matrix.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/matrix.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat3x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat3x4.hpp
 type_vec3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec3.hpp
 type_vec4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec4.hpp
 limits
 -
 cstddef
 -
 type_mat3x4.inl
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat3x4.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat3x4.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat3x4.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat3x4.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat4x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat4x2.hpp
 type_vec2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec2.hpp
 type_vec4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec4.hpp
 limits
 -
 cstddef
 -
 type_mat4x2.inl
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat4x2.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat4x2.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat4x2.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat4x2.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat4x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat4x3.hpp
 type_vec3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec3.hpp
 type_vec4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec4.hpp
 limits
 -
 cstddef
 -
 type_mat4x3.inl
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat4x3.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat4x3.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat4x3.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat4x3.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat4x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat4x4.hpp
 type_vec4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec4.hpp
 limits
 -
 cstddef
 -
 type_mat4x4.inl
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat4x4.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat4x4.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat4x4.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat4x4.inl
 ../matrix.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/matrix.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/matrix.hpp
 type_mat4x4_simd.inl
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat4x4_simd.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat4x4_simd.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat4x4_simd.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat4x4_simd.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec1.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec1.hpp
 qualifier.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/qualifier.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/qualifier.hpp
 _swizzle.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/_swizzle.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/_swizzle.hpp
 _swizzle_func.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/_swizzle_func.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/_swizzle_func.hpp
 cstddef
 -
 type_vec1.inl
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec1.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec1.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec1.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec1.inl
 ./compute_vector_relational.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/compute_vector_relational.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/compute_vector_relational.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec2.hpp
 qualifier.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/qualifier.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/qualifier.hpp
 _swizzle.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/_swizzle.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/_swizzle.hpp
 _swizzle_func.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/_swizzle_func.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/_swizzle_func.hpp
 cstddef
 -
 type_vec2.inl
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec2.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec2.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec2.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec2.inl
 ./compute_vector_relational.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/compute_vector_relational.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/compute_vector_relational.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec3.hpp
 qualifier.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/qualifier.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/qualifier.hpp
 _swizzle.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/_swizzle.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/_swizzle.hpp
 _swizzle_func.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/_swizzle_func.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/_swizzle_func.hpp
 cstddef
 -
 type_vec3.inl
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec3.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec3.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec3.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec3.inl
 compute_vector_relational.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/compute_vector_relational.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/compute_vector_relational.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec4.hpp
 qualifier.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/qualifier.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/qualifier.hpp
 _swizzle.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/_swizzle.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/_swizzle.hpp
 _swizzle_func.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/_swizzle_func.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/_swizzle_func.hpp
 cstddef
 -
 type_vec4.inl
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec4.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec4.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec4.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec4.inl
 compute_vector_relational.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/compute_vector_relational.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/compute_vector_relational.hpp
 type_vec4_simd.inl
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec4_simd.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec4_simd.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec4_simd.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec4_simd.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/exponential.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/exponential.hpp
 detail/type_vec1.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec1.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec1.hpp
 detail/type_vec2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec2.hpp
 detail/type_vec3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec3.hpp
 detail/type_vec4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec4.hpp
 cmath
 -
 detail/func_exponential.inl
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_exponential.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_exponential.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double2x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double2x2.hpp
 ../detail/type_mat2x2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat2x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat2x2.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double2x2_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double2x2_precision.hpp
 ../detail/type_mat2x2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat2x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat2x2.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double2x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double2x3.hpp
 ../detail/type_mat2x3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat2x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat2x3.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double2x3_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double2x3_precision.hpp
 ../detail/type_mat2x3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat2x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat2x3.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double2x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double2x4.hpp
 ../detail/type_mat2x4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat2x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat2x4.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double2x4_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double2x4_precision.hpp
 ../detail/type_mat2x4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat2x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat2x4.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double3x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double3x2.hpp
 ../detail/type_mat3x2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat3x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat3x2.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double3x2_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double3x2_precision.hpp
 ../detail/type_mat3x2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat3x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat3x2.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double3x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double3x3.hpp
 ../detail/type_mat3x3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat3x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat3x3.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double3x3_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double3x3_precision.hpp
 ../detail/type_mat3x3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat3x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat3x3.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double3x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double3x4.hpp
 ../detail/type_mat3x4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat3x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat3x4.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double3x4_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double3x4_precision.hpp
 ../detail/type_mat3x4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat3x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat3x4.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double4x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double4x2.hpp
 ../detail/type_mat4x2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat4x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat4x2.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double4x2_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double4x2_precision.hpp
 ../detail/type_mat4x2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat4x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat4x2.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double4x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double4x3.hpp
 ../detail/type_mat4x3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat4x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat4x3.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double4x3_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double4x3_precision.hpp
 ../detail/type_mat4x3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat4x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat4x3.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double4x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double4x4.hpp
 ../detail/type_mat4x4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat4x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat4x4.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double4x4_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double4x4_precision.hpp
 ../detail/type_mat4x4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat4x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat4x4.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float2x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float2x2.hpp
 ../detail/type_mat2x2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat2x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat2x2.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float2x2_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float2x2_precision.hpp
 ../detail/type_mat2x2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat2x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat2x2.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float2x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float2x3.hpp
 ../detail/type_mat2x3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat2x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat2x3.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float2x3_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float2x3_precision.hpp
 ../detail/type_mat2x3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat2x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat2x3.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float2x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float2x4.hpp
 ../detail/type_mat2x4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat2x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat2x4.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float2x4_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float2x4_precision.hpp
 ../detail/type_mat2x4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat2x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat2x4.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float3x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float3x2.hpp
 ../detail/type_mat3x2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat3x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat3x2.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float3x2_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float3x2_precision.hpp
 ../detail/type_mat3x2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat3x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat3x2.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float3x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float3x3.hpp
 ../detail/type_mat3x3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat3x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat3x3.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float3x3_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float3x3_precision.hpp
 ../detail/type_mat3x3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat3x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat3x3.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float3x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float3x4.hpp
 ../detail/type_mat3x4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat3x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat3x4.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float3x4_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float3x4_precision.hpp
 ../detail/type_mat3x4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat3x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat3x4.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float4x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float4x2.hpp
 ../detail/type_mat4x2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat4x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat4x2.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float4x2_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float4x2_precision.hpp
 ../detail/type_mat2x2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat2x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat2x2.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float4x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float4x3.hpp
 ../detail/type_mat4x3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat4x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat4x3.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float4x3_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float4x3_precision.hpp
 ../detail/type_mat4x3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat4x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat4x3.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float4x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float4x4.hpp
 ../detail/type_mat4x4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat4x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat4x4.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float4x4_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float4x4_precision.hpp
 ../detail/type_mat4x4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_mat4x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_mat4x4.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/scalar_int_sized.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/scalar_int_sized.hpp
 ../detail/setup.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/setup.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/setup.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/scalar_uint_sized.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/scalar_uint_sized.hpp
 ../detail/setup.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/setup.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/setup.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_bool2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_bool2.hpp
 ../detail/type_vec2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec2.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_bool2_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_bool2_precision.hpp
 ../detail/type_vec2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec2.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_bool3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_bool3.hpp
 ../detail/type_vec3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec3.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_bool3_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_bool3_precision.hpp
 ../detail/type_vec3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec3.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_bool4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_bool4.hpp
 ../detail/type_vec4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec4.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_bool4_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_bool4_precision.hpp
 ../detail/type_vec4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec4.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_double2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_double2.hpp
 ../detail/type_vec2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec2.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_double2_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_double2_precision.hpp
 ../detail/type_vec2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec2.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_double3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_double3.hpp
 ../detail/type_vec3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec3.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_double3_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_double3_precision.hpp
 ../detail/type_vec3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec3.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_double4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_double4.hpp
 ../detail/type_vec4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec4.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_double4_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_double4_precision.hpp
 ../detail/setup.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/setup.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/setup.hpp
 ../detail/type_vec4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec4.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_float2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_float2.hpp
 ../detail/type_vec2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec2.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_float2_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_float2_precision.hpp
 ../detail/type_vec2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec2.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_float3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_float3.hpp
 ../detail/type_vec3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec3.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_float3_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_float3_precision.hpp
 ../detail/type_vec3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec3.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_float4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_float4.hpp
 ../detail/type_vec4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec4.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_float4_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_float4_precision.hpp
 ../detail/type_vec4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec4.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_int2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_int2.hpp
 ../detail/type_vec2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec2.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_int2_sized.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_int2_sized.hpp
 ../ext/vector_int2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_int2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_int2.hpp
 ../ext/scalar_int_sized.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/scalar_int_sized.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/scalar_int_sized.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_int3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_int3.hpp
 ../detail/type_vec3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec3.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_int3_sized.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_int3_sized.hpp
 ../ext/vector_int3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_int3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_int3.hpp
 ../ext/scalar_int_sized.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/scalar_int_sized.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/scalar_int_sized.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_int4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_int4.hpp
 ../detail/type_vec4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec4.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_int4_sized.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_int4_sized.hpp
 ../ext/vector_int4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_int4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_int4.hpp
 ../ext/scalar_int_sized.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/scalar_int_sized.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/scalar_int_sized.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_uint2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_uint2.hpp
 ../detail/type_vec2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec2.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_uint2_sized.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_uint2_sized.hpp
 ../ext/vector_uint2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_uint2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_uint2.hpp
 ../ext/scalar_uint_sized.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/scalar_uint_sized.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/scalar_uint_sized.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_uint3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_uint3.hpp
 ../detail/type_vec3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec3.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_uint3_sized.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_uint3_sized.hpp
 ../ext/vector_uint3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_uint3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_uint3.hpp
 ../ext/scalar_uint_sized.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/scalar_uint_sized.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/scalar_uint_sized.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_uint4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_uint4.hpp
 ../detail/type_vec4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec4.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_uint4_sized.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_uint4_sized.hpp
 ../ext/vector_uint4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_uint4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_uint4.hpp
 ../ext/scalar_uint_sized.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/scalar_uint_sized.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/scalar_uint_sized.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/fwd.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/fwd.hpp
 detail/qualifier.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/qualifier.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/qualifier.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/geometric.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/geometric.hpp
 detail/type_vec3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/type_vec3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/type_vec3.hpp
 detail/func_geometric.inl
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_geometric.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_geometric.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/glm.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/glm.hpp
 detail/_fixes.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/_fixes.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/_fixes.hpp
 detail/setup.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/setup.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/setup.hpp
 cmath
 -
 climits
@@ -704,213 +704,213 @@ limits
 cassert
 -
 fwd.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/fwd.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/fwd.hpp
 vec2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/vec2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/vec2.hpp
 vec3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/vec3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/vec3.hpp
 vec4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/vec4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/vec4.hpp
 mat2x2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/mat2x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/mat2x2.hpp
 mat2x3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/mat2x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/mat2x3.hpp
 mat2x4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/mat2x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/mat2x4.hpp
 mat3x2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/mat3x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/mat3x2.hpp
 mat3x3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/mat3x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/mat3x3.hpp
 mat3x4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/mat3x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/mat3x4.hpp
 mat4x2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/mat4x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/mat4x2.hpp
 mat4x3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/mat4x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/mat4x3.hpp
 mat4x4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/mat4x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/mat4x4.hpp
 trigonometric.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/trigonometric.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/trigonometric.hpp
 exponential.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/exponential.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/exponential.hpp
 common.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/common.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/common.hpp
 packing.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/packing.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/packing.hpp
 geometric.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/geometric.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/geometric.hpp
 matrix.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/matrix.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/matrix.hpp
 vector_relational.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/vector_relational.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/vector_relational.hpp
 integer.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/integer.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/integer.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/integer.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/integer.hpp
 detail/qualifier.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/qualifier.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/qualifier.hpp
 common.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/common.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/common.hpp
 vector_relational.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/vector_relational.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/vector_relational.hpp
 detail/func_integer.inl
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_integer.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_integer.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/mat2x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/mat2x2.hpp
 ./ext/matrix_double2x2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double2x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double2x2.hpp
 ./ext/matrix_double2x2_precision.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double2x2_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double2x2_precision.hpp
 ./ext/matrix_float2x2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float2x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float2x2.hpp
 ./ext/matrix_float2x2_precision.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float2x2_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float2x2_precision.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/mat2x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/mat2x3.hpp
 ./ext/matrix_double2x3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double2x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double2x3.hpp
 ./ext/matrix_double2x3_precision.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double2x3_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double2x3_precision.hpp
 ./ext/matrix_float2x3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float2x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float2x3.hpp
 ./ext/matrix_float2x3_precision.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float2x3_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float2x3_precision.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/mat2x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/mat2x4.hpp
 ./ext/matrix_double2x4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double2x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double2x4.hpp
 ./ext/matrix_double2x4_precision.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double2x4_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double2x4_precision.hpp
 ./ext/matrix_float2x4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float2x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float2x4.hpp
 ./ext/matrix_float2x4_precision.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float2x4_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float2x4_precision.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/mat3x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/mat3x2.hpp
 ./ext/matrix_double3x2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double3x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double3x2.hpp
 ./ext/matrix_double3x2_precision.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double3x2_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double3x2_precision.hpp
 ./ext/matrix_float3x2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float3x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float3x2.hpp
 ./ext/matrix_float3x2_precision.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float3x2_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float3x2_precision.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/mat3x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/mat3x3.hpp
 ./ext/matrix_double3x3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double3x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double3x3.hpp
 ./ext/matrix_double3x3_precision.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double3x3_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double3x3_precision.hpp
 ./ext/matrix_float3x3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float3x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float3x3.hpp
 ./ext/matrix_float3x3_precision.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float3x3_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float3x3_precision.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/mat3x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/mat3x4.hpp
 ./ext/matrix_double3x4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double3x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double3x4.hpp
 ./ext/matrix_double3x4_precision.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double3x4_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double3x4_precision.hpp
 ./ext/matrix_float3x4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float3x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float3x4.hpp
 ./ext/matrix_float3x4_precision.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float3x4_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float3x4_precision.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/mat4x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/mat4x2.hpp
 ./ext/matrix_double4x2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double4x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double4x2.hpp
 ./ext/matrix_double4x2_precision.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double4x2_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double4x2_precision.hpp
 ./ext/matrix_float4x2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float4x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float4x2.hpp
 ./ext/matrix_float4x2_precision.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float4x2_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float4x2_precision.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/mat4x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/mat4x3.hpp
 ./ext/matrix_double4x3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double4x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double4x3.hpp
 ./ext/matrix_double4x3_precision.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double4x3_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double4x3_precision.hpp
 ./ext/matrix_float4x3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float4x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float4x3.hpp
 ./ext/matrix_float4x3_precision.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float4x3_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float4x3_precision.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/mat4x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/mat4x4.hpp
 ./ext/matrix_double4x4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double4x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double4x4.hpp
 ./ext/matrix_double4x4_precision.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_double4x4_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_double4x4_precision.hpp
 ./ext/matrix_float4x4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float4x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float4x4.hpp
 ./ext/matrix_float4x4_precision.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/matrix_float4x4_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/matrix_float4x4_precision.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/matrix.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/matrix.hpp
 detail/qualifier.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/qualifier.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/qualifier.hpp
 detail/setup.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/setup.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/setup.hpp
 vec2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/vec2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/vec2.hpp
 vec3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/vec3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/vec3.hpp
 vec4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/vec4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/vec4.hpp
 mat2x2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/mat2x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/mat2x2.hpp
 mat2x3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/mat2x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/mat2x3.hpp
 mat2x4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/mat2x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/mat2x4.hpp
 mat3x2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/mat3x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/mat3x2.hpp
 mat3x3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/mat3x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/mat3x3.hpp
 mat3x4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/mat3x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/mat3x4.hpp
 mat4x2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/mat4x2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/mat4x2.hpp
 mat4x3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/mat4x3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/mat4x3.hpp
 mat4x4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/mat4x4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/mat4x4.hpp
 detail/func_matrix.inl
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_matrix.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_matrix.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/packing.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/packing.hpp
 ./ext/vector_uint2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_uint2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_uint2.hpp
 ./ext/vector_float2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_float2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_float2.hpp
 ./ext/vector_float4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_float4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_float4.hpp
 detail/func_packing.inl
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_packing.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_packing.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/simd/common.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/simd/common.h
 platform.h
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/simd/platform.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/simd/platform.h
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/simd/exponential.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/simd/exponential.h
 platform.h
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/simd/platform.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/simd/platform.h
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/simd/geometric.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/simd/geometric.h
 common.h
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/simd/common.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/simd/common.h
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/simd/integer.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/simd/integer.h
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/simd/matrix.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/simd/matrix.h
 geometric.h
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/simd/geometric.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/simd/geometric.h
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/simd/neon.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/simd/neon.h
 arm_neon.h
 -
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/simd/platform.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/simd/platform.h
 cuda.h
 -
 immintrin.h
@@ -930,147 +930,147 @@ pmmintrin.h
 emmintrin.h
 -
 neon.h
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/simd/neon.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/simd/neon.h
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/trigonometric.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/trigonometric.hpp
 detail/setup.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/setup.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/setup.hpp
 detail/qualifier.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/qualifier.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/qualifier.hpp
 detail/func_trigonometric.inl
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_trigonometric.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_trigonometric.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/vec2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/vec2.hpp
 ./ext/vector_bool2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_bool2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_bool2.hpp
 ./ext/vector_bool2_precision.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_bool2_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_bool2_precision.hpp
 ./ext/vector_float2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_float2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_float2.hpp
 ./ext/vector_float2_precision.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_float2_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_float2_precision.hpp
 ./ext/vector_double2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_double2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_double2.hpp
 ./ext/vector_double2_precision.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_double2_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_double2_precision.hpp
 ./ext/vector_int2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_int2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_int2.hpp
 ./ext/vector_int2_sized.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_int2_sized.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_int2_sized.hpp
 ./ext/vector_uint2.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_uint2.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_uint2.hpp
 ./ext/vector_uint2_sized.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_uint2_sized.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_uint2_sized.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/vec3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/vec3.hpp
 ./ext/vector_bool3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_bool3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_bool3.hpp
 ./ext/vector_bool3_precision.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_bool3_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_bool3_precision.hpp
 ./ext/vector_float3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_float3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_float3.hpp
 ./ext/vector_float3_precision.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_float3_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_float3_precision.hpp
 ./ext/vector_double3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_double3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_double3.hpp
 ./ext/vector_double3_precision.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_double3_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_double3_precision.hpp
 ./ext/vector_int3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_int3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_int3.hpp
 ./ext/vector_int3_sized.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_int3_sized.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_int3_sized.hpp
 ./ext/vector_uint3.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_uint3.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_uint3.hpp
 ./ext/vector_uint3_sized.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_uint3_sized.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_uint3_sized.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/vec4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/vec4.hpp
 ./ext/vector_bool4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_bool4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_bool4.hpp
 ./ext/vector_bool4_precision.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_bool4_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_bool4_precision.hpp
 ./ext/vector_float4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_float4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_float4.hpp
 ./ext/vector_float4_precision.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_float4_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_float4_precision.hpp
 ./ext/vector_double4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_double4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_double4.hpp
 ./ext/vector_double4_precision.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_double4_precision.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_double4_precision.hpp
 ./ext/vector_int4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_int4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_int4.hpp
 ./ext/vector_int4_sized.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_int4_sized.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_int4_sized.hpp
 ./ext/vector_uint4.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_uint4.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_uint4.hpp
 ./ext/vector_uint4_sized.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/ext/vector_uint4_sized.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/ext/vector_uint4_sized.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/vector_relational.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/vector_relational.hpp
 detail/qualifier.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/qualifier.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/qualifier.hpp
 detail/setup.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/setup.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/setup.hpp
 detail/func_vector_relational.inl
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/detail/func_vector_relational.inl
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_vector_relational.inl
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Camera.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Camera.h
 vector
 -
 ../glm/glm.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/glm.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/glm.hpp
 ../glm/geometric.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/geometric.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/geometric.hpp
 Definitions.h
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Definitions.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Definitions.h
 Pixel.h
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Pixel.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Pixel.h
 Scene.h
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Scene.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Scene.h
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Definitions.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Definitions.h
 ../glm/glm.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/glm.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/glm.hpp
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Pixel.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Pixel.h
 Definitions.h
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Definitions.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Definitions.h
 Ray.h
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Ray.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Ray.h
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Ray.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Ray.h
 ../glm/glm.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/glm.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/glm.hpp
 Definitions.h
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Definitions.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Definitions.h
 Triangle.h
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Triangle.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Triangle.h
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Scene.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Scene.h
 Ray.h
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Ray.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Ray.h
 Triangle.h
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Triangle.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Triangle.h
 Definitions.h
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Definitions.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Definitions.h
 Tetrahedron.h
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Tetrahedron.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Tetrahedron.h
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Tetrahedron.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Tetrahedron.h
 Definitions.h
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Definitions.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Definitions.h
 Triangle.h
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Triangle.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Triangle.h
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Triangle.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Triangle.h
 ../glm/glm.hpp
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/glm/glm.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/glm.hpp
 Definitions.h
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Definitions.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Definitions.h
 Ray.h
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Ray.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Ray.h
 
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/Camera.cpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/src/Camera.cpp
 iostream
 -
 stdio.h
@@ -1080,11 +1080,5 @@ cstdlib
 cmath
 -
 ../headers/Camera.h
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Camera.h
-
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/main.cpp
-iostream
--
-../headers/Camera.h
-/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/headers/Camera.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Camera.h
 
