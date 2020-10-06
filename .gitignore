@@ -16,8 +16,6 @@ raytracer/.idea/**/contentModel.xml
 .DS_Store
 raytracer/.DS_Store
 
-#glm
-raytracer/glm
 
 # Sensitive or high-churn files
 raytracer/.idea/**/dataSources/
