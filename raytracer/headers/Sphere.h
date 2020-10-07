@@ -15,7 +15,7 @@ public:
     Sphere(){};
     Sphere(double _radius, Vertex _center, ColorDbl _color){
         radius = _radius;
-        c = _center;
+        center = _center;
         color = _color;
     }
 
@@ -33,14 +33,15 @@ public:
         o = r.getStart();
         l = r.getDir();
 
-        double a, b, c, d, d1, d2, sqrt;
+        float a, b;
+        double c, d, d1, d2, sqrt;
 
         a = 1;
-        b = glm::dot(2.0 * glm::dvec4(l,1), (o - c));
-        c = glm::dot((o-c),(o-c)) - pow(radius,2);
+        b = glm::dot(glm::dvec4(2.0*l,1), (o - center));
+        c = glm::dot((o-center),(o-center)) - pow(radius,2);
 
 
-         d = -(b/2.0f);
+         d = -(b/2.0);
          sqrt = glm::pow(d,2) - c;
 
         if(sqrt < EPSILON)
@@ -53,18 +54,19 @@ public:
 
         //  the line of the ray does not intersect the sphere (missed);
         if (d1 < EPSILON || d2 < EPSILON )
-            //return false;
+            return false;
 
         l = d1 * l;
         x1 = o + glm::dvec4(l,0);
-        x2 = glm::dvec4(glm::dvec3(o.x, o.y, o.z) + d2*l,1);
+        l = d2 * l;
+        x2 = o + glm::dvec4(l,0);
 
         if(glm::length(x1) < glm::length(x2))
             hit = x1;
         else
             hit = x2;
 
-        std::cout <<  c << " " << d1 << std::endl;
+        std::cout <<  hit.length() << " " << r.getStart().length() << std::endl;
 
         if(glm::length(hit) < minDist) {
 
@@ -76,7 +78,7 @@ public:
     }
 private:
     double radius;
-    Vertex c;
+    Vertex center;
     ColorDbl color;
 };
 #endif //RAYTRACER_SPHERE_H
