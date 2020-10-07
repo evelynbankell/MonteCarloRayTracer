@@ -45,6 +45,9 @@ raytracer/.idea/**/libraries
 
 # CMake
 cmake-build-*/
+raytracer/cmake-build-debug/*
+raytracer/cmake-build-debug/
+raytracer/cmake-build-debug/**/*
 
 # Mongo Explorer plugin
 raytracer/.idea/**/mongoSettings.xml
