@@ -50,7 +50,9 @@ Scene::Scene() {
 
     tetrahedron = Tetrahedron(ColorDbl(0,0,0));
 
-    sphere = Sphere(1.5, Vertex(11,0,0,1), ColorDbl(255,99,71));
+    sphere = Sphere(2.0, Vertex(11,0,-3,1), ColorDbl(255,99,71));
+
+    lightsource = Light();
 }
 
 void Scene::rayIntersection(Ray &r) {
@@ -63,6 +65,8 @@ void Scene::rayIntersection(Ray &r) {
     for (int i = 0; i < 24; i++) {
         triangleList[i].rayIntersection(r, minDist);
     }
+
+    lightsource.rayIntersection(r, minDist);
 
 
 }

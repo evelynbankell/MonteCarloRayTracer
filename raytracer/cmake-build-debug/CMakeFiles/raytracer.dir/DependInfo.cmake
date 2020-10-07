@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/src/Camera.cpp" "/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Camera.cpp.o"
-  "/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/src/Light.cpp" "/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Light.cpp.o"
-  "/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/src/Pixel.cpp" "/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Pixel.cpp.o"
-  "/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/src/Ray.cpp" "/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Ray.cpp.o"
-  "/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/src/Scene.cpp" "/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Scene.cpp.o"
-  "/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/src/Triangle.cpp" "/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Triangle.cpp.o"
-  "/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/src/main.cpp" "/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/main.cpp.o"
+  "/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/Camera.cpp" "/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Camera.cpp.o"
+  "/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/Light.cpp" "/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Light.cpp.o"
+  "/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/Pixel.cpp" "/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Pixel.cpp.o"
+  "/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/Ray.cpp" "/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Ray.cpp.o"
+  "/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/Scene.cpp" "/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Scene.cpp.o"
+  "/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/Triangle.cpp" "/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/Triangle.cpp.o"
+  "/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/src/main.cpp" "/Users/evelynbankell/Documents/TNCG15/raytracer/raytracer/cmake-build-debug/CMakeFiles/raytracer.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

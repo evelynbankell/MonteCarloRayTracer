@@ -12,6 +12,8 @@ class Light {
 public:
     Light();
 
+    void rayIntersection(Ray &ray, double &minDist);
+
 private:
     double length;
     ColorDbl color;
