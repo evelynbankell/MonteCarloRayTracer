@@ -1014,9 +1014,29 @@ detail/setup.hpp
 detail/func_vector_relational.inl
 /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/detail/func_vector_relational.inl
 
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Camera.h
+vector
+-
+../glm/glm.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/glm.hpp
+../glm/geometric.hpp
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/geometric.hpp
+Definitions.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Definitions.h
+Pixel.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Pixel.h
+Scene.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Scene.h
+
 /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Definitions.h
 ../glm/glm.hpp
 /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/glm/glm.hpp
+
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Pixel.h
+Definitions.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Definitions.h
+Ray.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Ray.h
 
 /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Ray.h
 ../glm/glm.hpp
@@ -1060,9 +1080,27 @@ Definitions.h
 Ray.h
 /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Ray.h
 
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/src/Camera.cpp
+iostream
+-
+stdio.h
+-
+cstdlib
+-
+cmath
+-
+../headers/Camera.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Camera.h
+
 /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/src/Scene.cpp
 iostream
 -
 ../headers/Scene.h
 /Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Scene.h
+
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/src/main.cpp
+iostream
+-
+../headers/Camera.h
+/Users/hannahbergenroth/Desktop/TNCG15/MonteCarloRayTracer/raytracer/headers/Camera.h
 
