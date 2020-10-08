@@ -14,10 +14,15 @@ public:
 
     void rayIntersection(Ray &ray, double &minDist);
 
+    Vertex point;
+    Direction getNormal(Vertex p) { return normal; };
+
 private:
     double length;
     ColorDbl color;
     double L0 = 255;
+
+    Direction normal;
     Vertex v0, v1, v2, v3;
     Triangle triangles[2];
 };

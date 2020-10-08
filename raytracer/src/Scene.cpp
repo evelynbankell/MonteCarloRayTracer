@@ -48,11 +48,29 @@ Scene::Scene() {
     triangleList[22] = Triangle(Vertex(13.0,0.0,-5.0,1.0),Vertex(13.0,0.0,5.0,1.0),Vertex(10.0,-6.0,5.0,1.0), ColorDbl(0, 255, 255));
     triangleList[23] = Triangle(Vertex(13.0,0.0,-5.0,1.0),Vertex(10.0,-6.0,5.0,1.0),Vertex(10.0,-6.0,-5.0,1.0), ColorDbl(0, 255, 255));
 
-    tetrahedron = Tetrahedron(ColorDbl(0,0,0));
+    tetrahedron = Tetrahedron(ColorDbl(0,200,5));
 
-    sphere = Sphere(2.0, Vertex(11,0,0,1), ColorDbl(255,99,71));
+    sphere = Sphere(1.5, Vertex(6,2,-2,1), ColorDbl(255,99,71));
 
     lightsource = Light();
+}
+
+bool Scene::isIntersected(Ray &r) {
+    double minDist = 1000;
+
+    if (tetrahedron.rayIntersection(r, minDist))
+        return true;
+
+    if (sphere.rayIntersection(r,minDist))
+        //return true;
+
+    for (int i = 0; i < 24; i++) {
+        //if (triangleList[i].rayIntersection(r, minDist))
+            //return true;
+    }
+
+
+    return false;
 }
 
 void Scene::rayIntersection(Ray &r) {
@@ -68,5 +86,15 @@ void Scene::rayIntersection(Ray &r) {
 
     lightsource.rayIntersection(r, minDist);
 
+    //Direction dir = glm::dvec3(lightsource.point.x, lightsource.point.y, lightsource.point.z);
+    Direction dir = glm::dvec3(lightsource.point.x-r.getEnd().x, lightsource.point.y-r.getEnd().y, lightsource.point.z-r.getEnd().z);
+
+    Ray shadowRay = Ray(r.getEnd(), dir);
+
+    if (isIntersected(shadowRay)) {
+        // Direction dir = glm::dvec3(lightsource.point.x-r.getEnd().x, lightsource.point.y-r.getEnd().y, lightsource.point.z-r.getEnd().z);
+        r.setColor(r.getColor()*0.5);
+        std::cout << r.getColor().x << std::endl;
+    }
 
 }

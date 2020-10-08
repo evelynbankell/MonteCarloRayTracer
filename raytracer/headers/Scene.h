@@ -16,7 +16,6 @@ class Scene {
 public:
     Scene();
     //~Scene();
-    bool is_intersected(Ray ray);
     ColorDbl rayTracer(Ray ray);
     Triangle triangleList[24];
     Tetrahedron tetrahedron;
@@ -24,6 +23,7 @@ public:
     Light lightsource;
 
     void rayIntersection(Ray &r);
+    bool isIntersected(Ray &r);
 
 private:
     //Triangle triangleList[24];

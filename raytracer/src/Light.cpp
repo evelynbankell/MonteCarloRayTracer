@@ -8,6 +8,8 @@ Light::Light() {
     color = ColorDbl (0, 0, 0);
     length = 1.0;
 
+    point = Vertex (5, 0, 5, 1);
+
     v0 = Vertex(4.5,-1.5,4,1);
     v1 = Vertex(5.5,-1.5,4,1);
     v2 = Vertex(4.5,1.5,4,1);
