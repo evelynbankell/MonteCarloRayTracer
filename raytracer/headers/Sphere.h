@@ -13,7 +13,7 @@
 class Sphere {
 public:
     Sphere(){};
-    Sphere(double _radius, Vertex _center, ColorDbl _color){
+    Sphere(float _radius, Vertex _center, ColorDbl _color){
         radius = _radius;
         center = _center;
         color = _color;
@@ -23,9 +23,26 @@ public:
         return color;
     }
 
+    //https://www.scratchapixel.com/lessons/3d-basic-rendering/minimal-ray-tracer-rendering-simple-shapes/ray-sphere-intersection
+    bool solveQuadratic(const float &a, const float &b, const float &c, float &x0, float &x1) {
+        float discr = b * b - 4 * a * c;
+        if (discr < 0) return false;
+        else if (discr == 0) x0 = x1 = - 0.5 * b / a;
+        else {
+            float q = (b > 0) ?
+                      -0.5 * (b + sqrt(discr)) :
+                      -0.5 * (b - sqrt(discr));
+            x0 = q / a;
+            x1 = c / q;
+        }
+        if (x0 > x1) std::swap(x0, x1);
+
+        return true;
+    }
+
     bool rayIntersection(Ray &r, double &minDist) {
 
-        const float EPSILON = 0.0000001;
+        const float EPSILON = 0.0000000001;
 
         Vertex o, x1, x2, hit;
         Direction l;
@@ -33,15 +50,27 @@ public:
         o = r.getStart();
         l = r.getDir();
 
-        double a, b;
-        double c, d, d1, d2, sqrten;
+        float a, b;
+        float c, d, d1, d2, sqrten;
 
         a = 1;
-        b = 2.0f * glm::dot(glm::dvec4((l),1), (o - center));
+        b = glm::dot(2.0*glm::dvec4(l.x, l.y, l.z,1), (o - center));
         c = glm::dot((o-center),(o-center)) - glm::pow(radius,2);
 
-         d = -(b/2.0);
-         sqrten = glm::pow(d,2.0) - c;
+        if (!solveQuadratic(a, b, c, d1, d2)) return false;
+        std::cout << d1 << " " << d2 << std::endl;
+
+        if (d1 > d2) std::swap(d1, d2);
+
+        if (d1 < EPSILON) {
+            d1 = d2; // if t0 is negative, let's use t1 instead
+            if (d1 < EPSILON) return false; // both t0 and t1 are negative
+        }
+
+        d = d1;
+
+       /* d = -(b/2.0f);
+         sqrten = glm::pow(d,2.0) - a*c;
 
         if(sqrten < EPSILON)
             return false;
@@ -50,35 +79,44 @@ public:
 
         d1 = d + sqrten;
         d2 = d - sqrten;
+*/
+
 
         //  the line of the ray does not intersect the sphere (missed);
-        if (d1 < EPSILON || d2 < EPSILON )
+        if (d < EPSILON)
             return false;
 
+
         //l = d1 * l;
-        x1 = o + glm::dvec4(d1*l.x, d1*l.y, d1*l.z,1);
+        x1 = o + (double)d * glm::dvec4(l,1);
         //l = d2 * l;
-        x2 = o + glm::dvec4(d2*l.x,d2* l.y, d2*l.z,1);
+
+
+
+        x2 = o + glm::dvec4((double)d*l.x,(double)d* l.y, (double)d*l.z,1);
+
 
         if (glm::length(x1) < glm::length(x2)) {
-            if ((r.getEnd() - r.getStart()).length() > x1.length())
-                return false;
             hit = x1;
         }
         else {
-            if ((r.getEnd() - r.getStart()).length() > x2.length())
-                return false;
             hit = x2;
         }
 
-        if(glm::length(hit) < minDist) {
 
-            r.setEnd(hit);
+
+        if(glm::length(x2) < minDist) {
+
+            std::cout << "min: " << minDist << std::endl;
+
+
             r.setColor(this->color);
-            minDist = glm::length(r.getEnd() - r.getStart());
+            minDist = glm::length(r.getEnd()-r.getStart());
+            r.setEnd(x2);
+            return true;
         }
 
-        return true;
+        return false;
 
     }
 private:
