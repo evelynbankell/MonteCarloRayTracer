@@ -16,12 +16,13 @@ public:
     void setColor(ColorDbl color);
     ColorDbl getColor() { return color; }
 
-
+    void setIntensity(float _intensity);
+    float getIntensity() const;
 
 
 private:
     ColorDbl color;
-    float intensity;
+    float intensity = 1.0;
 
 };
 

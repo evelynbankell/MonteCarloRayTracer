@@ -8,7 +8,16 @@
 Triangle::Triangle() {
 }
 
-Triangle::Triangle(Vertex v0, Vertex v1, Vertex v2, ColorDbl color) : v0(v0), v1(v1), v2(v2), color(color), normal(glm::vec3(0.0,0.0,0.0)) {}
+Triangle::Triangle(Vertex v0, Vertex v1, Vertex v2, ColorDbl color) : v0(v0), v1(v1), v2(v2), color(color) {
+    Direction d1 = v1 - v0;
+    Direction d2 = v2 - v0;
+
+    Direction cross = glm::cross(d1, d2);
+
+    float length_of_cross = sqrt((cross.x * cross.x) + (cross.y * cross.y) + (cross.z * cross.z));
+    normal = Direction (cross.x / length_of_cross, cross.y / length_of_cross, cross.z / length_of_cross);
+
+}
 Triangle::~Triangle() {
 }
 
@@ -48,6 +57,7 @@ bool Triangle::rayIntersection(Ray &ray, float &minDist) {
     if (t > EPSILON) { // ray intersection
         if(glm::length(Vertex(ray.getStart() + ray.getDir() * t))< minDist) {
             //calculate out intersection point
+            ray.setObjectNormal(this->getNormal());
             ray.setEnd(ray.getStart() + ray.getDir()*t); // set new end position
             ray.setColor(this->getColor());
             minDist = glm::length(ray.getEnd()-ray.getStart());

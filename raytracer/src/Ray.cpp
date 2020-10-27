@@ -25,6 +25,14 @@ Direction Ray::getDir() {
     return direction;
 }
 
+void Ray::setObjectNormal(const Direction &normal) {
+    objectNormal = normal;
+}
+
+const Direction &Ray::getObjectNormal() const {
+    return objectNormal;
+}
+
 
 void Ray::setEnd(Vertex _end) {
     end = _end;

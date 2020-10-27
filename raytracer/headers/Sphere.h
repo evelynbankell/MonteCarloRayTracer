@@ -83,14 +83,19 @@ public:
             minDist = glm::length(hit-r.getStart());
             std::cout << "min: " << minDist << std::endl;
 
+            Direction norm = hit - center;
+
+            float length_of_cross = sqrt((norm.x * norm.x) + (norm.y * norm.y) + (norm.z * norm.z));
+            Direction normal = Direction (norm.x / length_of_cross, norm.y / length_of_cross, norm.z / length_of_cross);
+
+            r.setObjectNormal(normal);
+
             r.setColor(getColor());
             r.setEnd(hit);
 
-
-            return true;
         }
 
-        return false;
+        return true;
 
     }
 

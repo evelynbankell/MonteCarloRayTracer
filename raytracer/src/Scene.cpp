@@ -50,12 +50,15 @@ Scene::Scene() {
 
     tetrahedron = Tetrahedron(ColorDbl(0,200,5));
 
-    sphere = Sphere(1.5, Vertex(7,1,-2), ColorDbl(255,99,71));
+    sphere = Sphere(1.5, Vertex(7,2,-2), ColorDbl(255,99,71));
 
     lightsource = Light();
 }
 
-bool Scene::isIntersected(Ray &r, float minDist) {
+bool Scene::isIntersected(Ray &r, float minDist, int depth) {
+
+    if (depth > 5)
+        return false;
 
     if (sphere.rayIntersection(r,minDist))
         return true;
@@ -63,18 +66,16 @@ bool Scene::isIntersected(Ray &r, float minDist) {
     if (tetrahedron.rayIntersection(r, minDist))
         return true;
 
-
-
     for (int i = 0; i < 24; i++) {
        // if (triangleList[i].rayIntersection(r, minDist))
-            //return true;
+         //   return true;
     }
 
 
     return false;
 }
 
-void Scene::rayIntersection(Ray &r) {
+void Scene::rayIntersection(Ray &r, int depth) {
     r.setColor(ColorDbl(0.0f,0.0f,0.0f));
     float minDist = 1000.0f;
 
@@ -88,18 +89,26 @@ void Scene::rayIntersection(Ray &r) {
 
     lightsource.rayIntersection(r, minDist);
 
+    Vertex shadowStart = r.getEnd() + r.getObjectNormal() * 0.001f;
+
     //Direction dir = glm::dvec3(-lightsource.point.x, lightsource.point.y, lightsource.point.z);
-    Direction dir = glm::dvec3(lightsource.point.x-r.getEnd().x, lightsource.point.y-r.getEnd().y, lightsource.point.z-r.getEnd().z);
-
-    Ray shadowRay = Ray(r.getEnd(), dir);
-
-    //std::cout << " mini: " << minDist << std::endl;
+    Direction dir = lightsource.point - shadowStart;
 
 
-    if (isIntersected(shadowRay, minDist)) {
-        // Direction dir = glm::dvec3(lightsource.point.x-r.getEnd().x, lightsource.point.y-r.getEnd().y, lightsource.point.z-r.getEnd().z);
+    float length_of_cross = sqrt((dir.x * dir.x) + (dir.y * dir.y) + (dir.z * dir.z));
+    dir = Direction (dir.x / length_of_cross, dir.y / length_of_cross, dir.z / length_of_cross);
+
+
+    Ray shadowRay = Ray(shadowStart, dir);
+
+    if (isIntersected(shadowRay, minDist, depth)) {
         r.setColor(r.getColor() * 0.5f);
        // std::cout << r.getColor().x << std::endl;
     }
+
+   /* if ((glm::length(shadowRay.getEnd() - shadowStart) - (glm::length(lightsource.point - shadowStart)) < DBL_EPSILON)) {
+
+    }
+    */
 
 }

@@ -12,3 +12,11 @@ Pixel::Pixel() {
 void Pixel::setColor(ColorDbl _color) {
     color = _color;
 }
+
+void Pixel::setIntensity(float _intensity) {
+    intensity = _intensity;
+}
+
+float Pixel::getIntensity() const {
+    return intensity;
+}

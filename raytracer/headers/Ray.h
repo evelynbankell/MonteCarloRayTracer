@@ -23,12 +23,16 @@ public:
     ColorDbl getColor();
     Direction getDir();
 
+    const Direction &getObjectNormal() const;
+    void setObjectNormal(const Direction &normal);
+
     void setEnd(Vertex end);
     void setColor(ColorDbl color);
 
 private:
     Vertex start, end;
     Direction direction;
+    Direction objectNormal;
     ColorDbl color;
 };
 
