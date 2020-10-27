@@ -13,10 +13,10 @@ public:
     Tetrahedron() { };
 
     Tetrahedron(ColorDbl color){
-        Vertex v0 = Vertex(7, -2, 1, 1.0); //top
-        Vertex v1 = Vertex(6, -2, -3, 1.0); //right
-        Vertex v2 = Vertex(8, -4.0, -3, 1.0); //left
-        Vertex v3 = Vertex(8, 0.0, -3, 1.0); //up
+        Vertex v0 = Vertex(7, -2, 1); //top
+        Vertex v1 = Vertex(6, -2, -3); //right
+        Vertex v2 = Vertex(8, -4.0, -3); //left
+        Vertex v3 = Vertex(8, 0.0, -3); //up
 
 
         triangles[0] = Triangle(v0, v3, v2, color);
@@ -27,7 +27,7 @@ public:
 
     Triangle triangles[4];
 
-    bool rayIntersection(Ray &r, double &minDist) {
+    bool rayIntersection(Ray &r, float &minDist) {
         bool is_hit = false;
         for (int i = 0; i < 4; i++) {
             is_hit = triangles[i].rayIntersection(r, minDist);

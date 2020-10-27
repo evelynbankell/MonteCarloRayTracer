@@ -32,8 +32,8 @@ private:
 
     const int SCREEN_RESOLUTION = 800;
 
-    const Vertex eye1 = Vertex(-1, 0, 0, 1);
-    const Vertex eye2 = Vertex(-1, 0, 0, 1);
+    const Vertex eye1 = Vertex(-1, 0, 0);
+    const Vertex eye2 = Vertex(-1, 0, 0);
 
     int eye;
     int resolution;

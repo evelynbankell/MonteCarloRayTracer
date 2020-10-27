@@ -23,7 +23,7 @@ public:
     void setColor(const ColorDbl &color);
     void setNormal();
 
-    bool rayIntersection(Ray &ray, double &minDist);
+    bool rayIntersection(Ray &ray, float &minDist);
 
 private:
     Vertex v0, v1, v2;

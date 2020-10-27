@@ -40,7 +40,7 @@ public:
         return true;
     }
 
-    bool rayIntersection(Ray &r, double &minDist) {
+    bool rayIntersection(Ray &r, float &minDist) {
 
         const float EPSILON = 0.0000000001;
 
@@ -51,76 +51,51 @@ public:
         l = r.getDir();
 
         float a, b;
-        float c, d, d1, d2, sqrten;
+        float c, d, d1, d2;
 
         a = 1;
-        b = glm::dot(2.0*glm::dvec4(l.x, l.y, l.z,1), (o - center));
+        b = 2.0f * glm::dot(l, (o - center));
         c = glm::dot((o-center),(o-center)) - glm::pow(radius,2);
 
-        if (!solveQuadratic(a, b, c, d1, d2)) return false;
-        std::cout << d1 << " " << d2 << std::endl;
+        d = b * b - 4.0f * a * c;
 
-        if (d1 > d2) std::swap(d1, d2);
-
-        if (d1 < EPSILON) {
-            d1 = d2; // if t0 is negative, let's use t1 instead
-            if (d1 < EPSILON) return false; // both t0 and t1 are negative
+        if(d < 0) {
+            return false;
         }
-
-        d = d1;
-
-       /* d = -(b/2.0f);
-         sqrten = glm::pow(d,2.0) - a*c;
-
-        if(sqrten < EPSILON)
-            return false;
-
-        sqrten = glm::sqrt(sqrten);
-
-        d1 = d + sqrten;
-        d2 = d - sqrten;
-*/
-
-
-        //  the line of the ray does not intersect the sphere (missed);
-        if (d < EPSILON)
-            return false;
-
-
-        //l = d1 * l;
-        x1 = o + (double)d * glm::dvec4(l,1);
-        //l = d2 * l;
-
-
-
-        x2 = o + glm::dvec4((double)d*l.x,(double)d* l.y, (double)d*l.z,1);
-
-
-        if (glm::length(x1) < glm::length(x2)) {
-            hit = x1;
+        else if (d < EPSILON ){
+            d1 = - (b / 2.0f);
+            hit = o + d1 *l;
         }
         else {
-            hit = x2;
+            d1 = -(b/2.0f) + sqrt(pow((b/2.0f),2) - a*c);
+            d2 = -(b/2.0f) - sqrt(pow((b/2.0f),2) - a*c);
+
+            if(d2 > 0.0f) {
+                hit = o + d2*l;
+            }
+            else if (d1 > 0.0f){
+                hit = o + d1*l;
+            }
+            else return false;
         }
 
-
-
-        if(glm::length(x2) < minDist) {
-
+        if(glm::length(hit-r.getStart()) < minDist) {
+            minDist = glm::length(hit-r.getStart());
             std::cout << "min: " << minDist << std::endl;
 
+            r.setColor(getColor());
+            r.setEnd(hit);
 
-            r.setColor(this->color);
-            minDist = glm::length(r.getEnd()-r.getStart());
-            r.setEnd(x2);
+
             return true;
         }
 
         return false;
 
     }
+
 private:
-    double radius;
+    float radius;
     Vertex center;
     ColorDbl color;
 };

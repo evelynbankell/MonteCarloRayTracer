@@ -23,7 +23,7 @@ public:
     Light lightsource;
 
     void rayIntersection(Ray &r);
-    bool isIntersected(Ray &r, double minDist);
+    bool isIntersected(Ray &r, float minDist);
 
 private:
     //Triangle triangleList[24];

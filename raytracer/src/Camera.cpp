@@ -36,7 +36,7 @@ void Camera::render(Scene s) {
     for (int y = 0; y < 800; y++) {
         for (int x = 0; x < 800; x++) {
 
-            Vertex position = Vertex(0, 1 - x * pixelSize, 1 - y * pixelSize, 1);
+            Vertex position = Vertex(0, 1 - x * pixelSize, 1 - y * pixelSize);
 
             Direction test;
             test.x = position.x - start.x;

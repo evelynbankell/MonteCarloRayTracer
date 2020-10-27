@@ -12,7 +12,7 @@ class Light {
 public:
     Light();
 
-    void rayIntersection(Ray &ray, double &minDist);
+    void rayIntersection(Ray &ray, float &minDist);
 
     Vertex point;
     Direction getNormal(Vertex p) { return normal; };
