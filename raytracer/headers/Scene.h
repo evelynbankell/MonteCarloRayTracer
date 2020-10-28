@@ -11,6 +11,7 @@
 #include "Tetrahedron.h"
 #include "Sphere.h"
 #include "Light.h"
+#include <cmath>
 
 class Scene {
 public:
@@ -19,6 +20,7 @@ public:
     Triangle triangleList[24];
     Tetrahedron tetrahedron;
     Sphere sphere;
+    Sphere sphere2;
     Light lightsource;
 
     void rayIntersection(Ray &r, int depth);

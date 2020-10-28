@@ -11,6 +11,7 @@ using Vertex = glm::vec3;
 using Direction = glm::vec3;
 using ColorDbl = glm::vec3;
 
-
+enum Material {MIRROR, LAMBERTIAN, LIGHT};
+enum RayType {SHADOW, REFLECTION, PRIMARY, SECONDARY};
 
 #endif //RAYTRACER_DEFINITIONS_H

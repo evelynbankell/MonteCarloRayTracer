@@ -13,15 +13,21 @@
 class Sphere {
 public:
     Sphere(){};
-    Sphere(float _radius, Vertex _center, ColorDbl _color){
+    Sphere(float _radius, Vertex _center, ColorDbl _color, Material _material){
         radius = _radius;
         center = _center;
         color = _color;
+        material = _material;
     }
 
     const ColorDbl &getColor() const {
         return color;
     }
+
+    const Material getMaterial() const {
+        return material;
+    }
+
 
     //https://www.scratchapixel.com/lessons/3d-basic-rendering/minimal-ray-tracer-rendering-simple-shapes/ray-sphere-intersection
     bool solveQuadratic(const float &a, const float &b, const float &c, float &x0, float &x1) {
@@ -81,27 +87,22 @@ public:
 
         if(glm::length(hit-r.getStart()) < minDist) {
             minDist = glm::length(hit-r.getStart());
-            std::cout << "min: " << minDist << std::endl;
-
             Direction norm = hit - center;
-
             float length_of_cross = sqrt((norm.x * norm.x) + (norm.y * norm.y) + (norm.z * norm.z));
             Direction normal = Direction (norm.x / length_of_cross, norm.y / length_of_cross, norm.z / length_of_cross);
-
             r.setObjectNormal(normal);
-
             r.setColor(getColor());
-            r.setEnd(hit);
-
+            r.setColor(getColor());
+            r.setEnd(hit + normal * 0.001f);
+            r.setMaterial(getMaterial());
         }
-
         return true;
-
     }
 
 private:
     float radius;
     Vertex center;
     ColorDbl color;
+    Material material;
 };
 #endif //RAYTRACER_SPHERE_H

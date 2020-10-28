@@ -48,7 +48,7 @@ void Camera::render(Scene s) {
 
             //std::cout << "x: " << test.x << " " << test.y <<  " " << test.z << std::endl;
             //std::cout << testN.x << " " << testN.y <<  " " << testN.z << std::endl;
-            Ray ray (start, testN);
+            Ray ray (start, testN, PRIMARY);
             int depth = 0;
             s.rayIntersection(ray, depth);
             ColorDbl color = ray.getColor();

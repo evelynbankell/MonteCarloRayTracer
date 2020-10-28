@@ -25,6 +25,7 @@ private:
     Direction normal;
     Vertex v0, v1, v2, v3;
     Triangle triangles[2];
+    Material material;
 };
 
 
