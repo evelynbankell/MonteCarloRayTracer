@@ -98,8 +98,11 @@ void Scene::rayIntersection(Ray &r, int depth) {
     sphere.rayIntersection(r,minDist);
     sphere2.rayIntersection(r,minDist);
     lightsource.rayIntersection(r, minDist);
-    for (int i = 0; i < 24; i++) {
-        triangleList[i].rayIntersection(r, minDist);
+
+    if(r.getRayType() != SHADOW) {
+        for (int i = 0; i < 24; i++) {
+            triangleList[i].rayIntersection(r, minDist);
+        }
     }
 
     if(r.getRayType() != SHADOW) {
@@ -131,22 +134,27 @@ void Scene::rayIntersection(Ray &r, int depth) {
                     break;
 
             }
+            case LAMBERTIAN : {
+                Vertex shadowStart = r.getEnd();
+
+                Direction dir = lightsource.point - shadowStart;
+
+                //dir = r.normalize(dir);
+
+                float length_of_cross = sqrt((dir.x * dir.x) + (dir.y * dir.y) + (dir.z * dir.z));
+                Direction norm_dir = Direction (dir.x / length_of_cross, dir.y / length_of_cross, dir.z / length_of_cross);
+
+                Ray shadowRay = Ray(shadowStart, norm_dir, SHADOW);
+
+
+                if (isIntersected(shadowRay, minDist, depth)) {
+                    r.setColor(r.getColor() * 0.5f);
+                }
+
+            }
             default: break;
         }
     }
 
-    Vertex shadowStart = r.getEnd() + r.getObjectNormal() * 0.001f;
 
-    Direction dir = lightsource.point - shadowStart;
-
-    //dir = r.normalize(dir);
-
-    float length_of_cross = sqrt((dir.x * dir.x) + (dir.y * dir.y) + (dir.z * dir.z));
-    dir = Direction (dir.x / length_of_cross, dir.y / length_of_cross, dir.z / length_of_cross);
-
-    Ray shadowRay = Ray(shadowStart, dir, SHADOW);
-
-    if (isIntersected(shadowRay, minDist, depth)) {
-        r.setColor(r.getColor() * 0.5f);
-    }
 }
