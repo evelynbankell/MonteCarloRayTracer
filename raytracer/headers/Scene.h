@@ -17,7 +17,7 @@ class Scene {
 public:
     Scene();
     //~Scene();
-    Triangle triangleList[24];
+    Triangle triangleList[26];
     Tetrahedron tetrahedron;
     Sphere sphere;
     Sphere sphere2;

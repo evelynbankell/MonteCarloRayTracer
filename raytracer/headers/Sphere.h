@@ -92,8 +92,7 @@ public:
             Direction normal = Direction (norm.x / length_of_cross, norm.y / length_of_cross, norm.z / length_of_cross);
             r.setObjectNormal(normal);
             r.setColor(getColor());
-            r.setColor(getColor());
-            r.setEnd(hit + normal * 0.001f);
+            r.setEnd(hit + r.getObjectNormal() * 0.001f);
             r.setMaterial(getMaterial());
         }
         return true;

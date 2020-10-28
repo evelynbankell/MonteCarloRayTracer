@@ -48,13 +48,17 @@ Scene::Scene() {
     triangleList[22] = Triangle(Vertex(13.0,0.0,-5.0),Vertex(13.0,0.0,5.0),Vertex(10.0,-6.0,5.0), ColorDbl(0, 255, 255), LAMBERTIAN);
     triangleList[23] = Triangle(Vertex(13.0,0.0,-5.0),Vertex(10.0,-6.0,5.0),Vertex(10.0,-6.0,-5.0), ColorDbl(0, 255, 255), LAMBERTIAN);
 
+    //Lamp
+    //triangleList[24] = Triangle(Vertex(5.5,-1.5,4), Vertex(4.5,1.5,4), Vertex(5.5,-1.5,4), ColorDbl(0,0,0), LIGHT);
+    //triangleList[25] = Triangle(Vertex(5.5,-1.5,4), Vertex(4.5,1.5,4), Vertex(5.5,1.5,4), ColorDbl(0,0,0) , LIGHT);
+
     tetrahedron = Tetrahedron(ColorDbl(0,200,5), LAMBERTIAN);
 
     sphere = Sphere(1.5, Vertex(7,2,-2), ColorDbl(255,99,71), LAMBERTIAN);
 
-    sphere2 = Sphere(1, Vertex(5,0,-3), ColorDbl(255,255,255), MIRROR);
+    sphere2 = Sphere(1, Vertex(5,0,-1), ColorDbl(0,0,0), MIRROR);
 
-    lightsource = Light();
+   lightsource = Light();
 }
 
 bool Scene::isIntersected(Ray &r, float minDist, int depth) {
@@ -102,20 +106,27 @@ void Scene::rayIntersection(Ray &r, int depth) {
         switch(r.getMaterial()) {
             case MIRROR: {
 
-                //float length_of = sqrt((r.getObjectNormal().x * r.getObjectNormal().x) + (r.getObjectNormal().y * r.getObjectNormal().y) + (r.getObjectNormal().z * r.getObjectNormal().z));
-                //Direction gaga = Direction (r.getObjectNormal().x / length_of, r.getObjectNormal().y / length_of, r.getObjectNormal().z / length_of);
+                float length_of = sqrt((r.getObjectNormal().x * r.getObjectNormal().x) + (r.getObjectNormal().y * r.getObjectNormal().y) + (r.getObjectNormal().z * r.getObjectNormal().z));
+                Direction norm_normal = Direction (r.getObjectNormal().x / length_of, r.getObjectNormal().y / length_of, r.getObjectNormal().z / length_of);
 
-                //float length = sqrt((r.getDir().x * r.getDir().x) + (r.getDir().y * r.getDir().y) + (r.getDir().z * r.getDir().z));
-                //Direction gago = Direction (r.getDir().x / length, r.getDir().y / length, r.getDir().z / length);
+                float length = sqrt((r.getDir().x * r.getDir().x) + (r.getDir().y * r.getDir().y) + (r.getDir().z * r.getDir().z));
+                Direction norm_dir = Direction (r.getDir().x / length, r.getDir().y / length, r.getDir().z / length);
 
 
-                    Direction reflected= glm::reflect(r.getDir(),r.getObjectNormal());
-                    Ray reflectedRay(r.getEnd(), reflected,REFLECTION);
+                Direction reflected= glm::reflect(norm_dir, norm_normal);
 
-                    if(isIntersected(reflectedRay, minDist, depth)) {
-                        r.setColor(reflectedRay.getColor());
+                 length = sqrt((reflected.x * reflected.x) + (reflected.y * reflected.y) + (reflected.z * reflected.z));
+                Direction norm_ref = Direction (reflected.x / length, reflected.y / length, reflected.z / length);
+
+                    Ray reflectedRay(r.getEnd(), norm_ref,REFLECTION);
+
+                    /*if(isIntersected(reflectedRay, minDist, depth)) {
+                        r.setColor(reflectedRay.getColor()*0.9f);
                         std::cout << r.getColor().x;
-                    }
+                    }*/
+
+                    rayIntersection(reflectedRay,0);
+                    r.setColor(reflectedRay.getColor()*0.9f);
 
                     break;
 

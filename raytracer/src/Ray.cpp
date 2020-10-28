@@ -65,6 +65,9 @@ Direction Ray::reflectRay() {
     Direction _normal = Direction (objectNormal.x / length_of_cross2, objectNormal.y / length_of_cross2, objectNormal.z / length_of_cross2);
 
     return  _direction - 2.f * glm::dot(_direction, _normal) * _normal;
+
+
+
 }
 
 void Ray::setMaterial(Material _material) {
