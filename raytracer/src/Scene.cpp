@@ -2,6 +2,8 @@
 // Created by Hannah Bergenroth & Evelyn Bankell
 //
 #include <iostream>
+#include <random>
+#include <cmath>
 
 #include "../headers/Scene.h"
 
@@ -52,20 +54,24 @@ Scene::Scene() {
     //triangleList[24] = Triangle(Vertex(5.5,-1.5,4), Vertex(4.5,1.5,4), Vertex(5.5,-1.5,4), ColorDbl(0,0,0), LIGHT);
     //triangleList[25] = Triangle(Vertex(5.5,-1.5,4), Vertex(4.5,1.5,4), Vertex(5.5,1.5,4), ColorDbl(0,0,0) , LIGHT);
 
-    tetrahedron = Tetrahedron(ColorDbl(0,200,5), LAMBERTIAN);
+    tetrahedron = Tetrahedron(ColorDbl(255,255,200), LAMBERTIAN);
 
     sphere = Sphere(1.5, Vertex(7,2,-2), ColorDbl(255,99,71), LAMBERTIAN);
 
     sphere2 = Sphere(1, Vertex(5,0,-1), ColorDbl(0,0,0), MIRROR);
 
-   lightsource = Light();
+    sphere3 = Sphere(2, Vertex(4,4,-2), ColorDbl(0,99,71), LAMBERTIAN);
+
+    lightsource = Light();
 }
 
 bool Scene::isIntersected(Ray &r, float minDist, int depth) {
 
-    if (depth > 5)
-        return false;
+   // if (depth > 5)
+    //    return false;
 
+    if (sphere3.rayIntersection(r,minDist))
+        return true;
 
     if (sphere2.rayIntersection(r,minDist))
         return true;
@@ -73,37 +79,35 @@ bool Scene::isIntersected(Ray &r, float minDist, int depth) {
     if (tetrahedron.rayIntersection(r, minDist))
         return true;
 
+    for (int i = 0; i < 24; i++) {
+        triangleList[i].rayIntersection(r, minDist);
+
+    }
 
     if (sphere.rayIntersection(r,minDist))
         return true;
 
-    if(r.getRayType() != SHADOW) {
-
-
-        for (int i = 0; i < 24; i++) {
-            if (triangleList[i].rayIntersection(r, minDist))
-                return true;
-        }
-    }
     return false;
 }
 
 void Scene::rayIntersection(Ray &r, int depth) {
-   // r.setColor(ColorDbl(0.0f,0.0f,0.0f));
-    if(depth > 5) return;
+
+    r.setColor(ColorDbl(0.0f,0.0f,0.0f));
+    //if(depth > 5) return;
 
     float minDist = 1000.0f;
 
     tetrahedron.rayIntersection(r, minDist);
     sphere.rayIntersection(r,minDist);
     sphere2.rayIntersection(r,minDist);
+    sphere3.rayIntersection(r,minDist);
     lightsource.rayIntersection(r, minDist);
 
-    if(r.getRayType() != SHADOW) {
+
         for (int i = 0; i < 24; i++) {
             triangleList[i].rayIntersection(r, minDist);
         }
-    }
+
 
     if(r.getRayType() != SHADOW) {
         switch(r.getMaterial()) {
@@ -131,30 +135,94 @@ void Scene::rayIntersection(Ray &r, int depth) {
                     rayIntersection(reflectedRay,0);
                     r.setColor(reflectedRay.getColor()*0.9f);
 
+
+
                     break;
 
             }
+            case LIGHT: {
+
+                break;
+            }
             case LAMBERTIAN : {
-                Vertex shadowStart = r.getEnd();
-
-                Direction dir = lightsource.point - shadowStart;
-
-                //dir = r.normalize(dir);
-
-                float length_of_cross = sqrt((dir.x * dir.x) + (dir.y * dir.y) + (dir.z * dir.z));
-                Direction norm_dir = Direction (dir.x / length_of_cross, dir.y / length_of_cross, dir.z / length_of_cross);
-
-                Ray shadowRay = Ray(shadowStart, norm_dir, SHADOW);
 
 
-                if (isIntersected(shadowRay, minDist, depth)) {
-                    r.setColor(r.getColor() * 0.5f);
-                }
 
+
+                r.setColor(computeDirectLight(r, minDist));
+                break;
             }
             default: break;
         }
     }
 
+
+}
+
+ColorDbl Scene::computeDirectLight(Ray &r, float &minDist) {
+    float L0 = lightsource.getL0();
+
+    float brdf = (0.8f / (float)M_PI);
+
+    ColorDbl sum = ColorDbl(0.f,0.0f,0.0f);
+
+    std::uniform_real_distribution<float> distribution(0.0f,1.0f);
+    std::random_device rd;
+    std::default_random_engine generator(rd());
+
+
+    Vertex v0 = lightsource.getv0();
+    Vertex v1 = lightsource.getv1();
+    Vertex v2 = lightsource.getv2();
+    Vertex v3 = lightsource.getv3();
+
+    Direction lightNormal = Direction (0.0f,0.0f,-1.0f);
+
+    int M = 1;
+    for(int i = 0; i < M; i++){
+        float vk;
+        //parametrize point q on the area light
+        float u = distribution(generator);
+        float v = distribution(generator);
+
+
+        //random point on light surface
+        //Vertex q = Vertex(u*(v1-v0) + v*(v3-v0));
+        //move to global coordinates
+        //q += Vertex(4,-1.5,3.9f);
+        //std::cout << q.x << " "<< q.y << " " << q.z << std::endl;
+
+       Vertex q = Vertex(4.5+u,-0.5+ v,3.9f);
+        std::cout << q.x << " "<< q.y << " " << q.z << std::endl;
+
+        Direction s_i = q - r.getEnd();
+        float d_i = glm::length(s_i);
+        //float cos_alpha =  glm::max(0.f,glm::dot(-s_i,lightNormal));
+        //float cos_beta = glm::max(0.f, glm::dot(s_i,r.getObjectNormal()));
+        float cos_alpha = glm::dot(-s_i,lightNormal);
+        float cos_beta = glm::dot(s_i,r.getObjectNormal());
+
+        //shadow ray
+
+        float length_of_cross = sqrt((s_i.x * s_i.x) + (s_i.y * s_i.y) + (s_i.z * s_i.z));
+        Direction rayDir = Direction (s_i.x / length_of_cross, s_i.y / length_of_cross, s_i.z / length_of_cross);
+
+
+        Ray shadowRay = Ray(r.getEnd(), rayDir, SHADOW);
+        //rayIntersection(shadowRay, 0);
+        float shadowRayLength = glm::length(shadowRay.getEnd() - shadowRay.getStart());
+
+        if(isIntersected(shadowRay,minDist,0)){
+       // if(shadowRayLength < d_i) {
+            vk = 0.0f;
+        }
+        else vk = 1.0f;
+
+        sum += brdf * r.getColor()*vk*(cos_alpha*cos_beta/(d_i*d_i));
+    }
+    //surface A of light source
+    float A = glm::length(glm::cross(v1-v0, v3-v0));
+
+    return  ((L0 * A * sum / float(M)));
 
 }

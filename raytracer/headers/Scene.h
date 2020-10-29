@@ -21,10 +21,12 @@ public:
     Tetrahedron tetrahedron;
     Sphere sphere;
     Sphere sphere2;
+    Sphere sphere3;
     Light lightsource;
 
     void rayIntersection(Ray &r, int depth);
     bool isIntersected(Ray &r, float minDist, int depth);
+    ColorDbl computeDirectLight(Ray &r, float &minDist);
 
 private:
     //Triangle triangleList[24];

@@ -16,11 +16,16 @@ public:
 
     Vertex point;
     Direction getNormal(Vertex p) { return normal; };
+    const Vertex getv0() const;
+    const Vertex getv1() const;
+    const Vertex getv2() const;
+    const Vertex getv3() const;
+    const float getL0() const;
 
 private:
     double length;
     ColorDbl color;
-    double L0 = 255;
+    float L0 = 255;
 
     Direction normal;
     Vertex v0, v1, v2, v3;

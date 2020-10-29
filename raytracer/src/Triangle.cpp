@@ -62,6 +62,7 @@ bool Triangle::rayIntersection(Ray &ray, float &minDist) {
             ray.setColor(getColor());
             minDist = glm::length(ray.getEnd()-ray.getStart());
             ray.setMaterial(getMaterial());
+           // std::cout << ray.getColor().x << std::endl;
 
         }
         return true;
