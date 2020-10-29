@@ -10,13 +10,13 @@ Light::Light() {
 
     point = Vertex (5, 0, 5);
 
-    v0 = Vertex(4.5,-0.5,5);
-    v1 = Vertex(5.5,-0.5,5);
-    v2 = Vertex(4.5,0.5,5);
-    v3 = Vertex(5.5,0.5,5);
+    v0 = Vertex(4.5,-0.5,4);
+    v1 = Vertex(5.5,-0.5,4);
+    v2 = Vertex(4.5,0.5,4);
+    v3 = Vertex(5.5,0.5,4);
 
-    triangles[0] = Triangle(v3, v1, v0, color, LIGHT);
-    triangles[1] = Triangle(v0, v2, v3, color, LIGHT);
+    triangles[1] = Triangle(v1, v3, v0, color, LIGHT);
+    triangles[0] = Triangle(v2, v0, v3, color, LIGHT);
 }
 
 void Light::rayIntersection(Ray &r, float &minDist) {

@@ -9,8 +9,8 @@ Triangle::Triangle() {
 }
 
 Triangle::Triangle(Vertex _v0, Vertex _v1, Vertex _v2, ColorDbl _color, Material _material) : v0(_v0), v1(_v1), v2(_v2), color(_color), material(_material) {
-    Direction d1 = v1 - v0;
-    Direction d2 = v2 - v0;
+    Direction d1 = v2 - v0;
+    Direction d2 = v1 - v0;
 
     Direction cross = glm::cross(d1, d2);
 

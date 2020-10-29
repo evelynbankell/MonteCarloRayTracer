@@ -13,16 +13,16 @@ public:
     Tetrahedron() { };
 
     Tetrahedron(ColorDbl _color, Material _material ){
-        Vertex v0 = Vertex(8, -1, 3); //top
-        Vertex v1 = Vertex(7, -1, -1); //right
-        Vertex v2 = Vertex(8, -2.0, -1); //left
-        Vertex v3 = Vertex(8, 0.0, -1); //up
+        Vertex v0 = Vertex(7, -2, 2); //top
+        Vertex v1 = Vertex(6, -2, -1); //front
+        Vertex v2 = Vertex(7, -3.0, -1); //right
+        Vertex v3 = Vertex(7, -1.0, -1); //left
 
 
-        triangles[0] = Triangle(v0, v1, v2, _color, _material);
-        triangles[1] = Triangle(v0, v3, v1, _color, _material);
-        triangles[2] = Triangle(v0, v2, v3, _color, _material);
-        triangles[3] = Triangle(v1, v3, v2, _color, _material);
+        triangles[0] = Triangle(v3, v1, v2, _color, _material); // under
+        triangles[1] = Triangle(v0, v3, v2, _color, _material); //behind
+        triangles[2] = Triangle(v2, v1, v0, _color, _material); //right
+        triangles[3] = Triangle(v3, v0, v1, _color, _material); //left
     }
 
     Triangle triangles[4];

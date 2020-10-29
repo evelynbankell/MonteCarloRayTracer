@@ -103,11 +103,9 @@ void Scene::rayIntersection(Ray &r, int depth) {
     sphere3.rayIntersection(r,minDist);
     lightsource.rayIntersection(r, minDist);
 
-
-        for (int i = 0; i < 24; i++) {
-            triangleList[i].rayIntersection(r, minDist);
-        }
-
+    for (int i = 0; i < 24; i++) {
+        triangleList[i].rayIntersection(r, minDist);
+    }
 
     if(r.getRayType() != SHADOW) {
         switch(r.getMaterial()) {
@@ -176,9 +174,11 @@ ColorDbl Scene::computeDirectLight(Ray &r, float &minDist) {
     Vertex v2 = lightsource.getv2();
     Vertex v3 = lightsource.getv3();
 
+
+
     Direction lightNormal = Direction (0.0f,0.0f,-1.0f);
 
-    int M = 1;
+    int M = 5;
     for(int i = 0; i < M; i++){
         float vk;
         //parametrize point q on the area light
@@ -192,29 +192,35 @@ ColorDbl Scene::computeDirectLight(Ray &r, float &minDist) {
         //q += Vertex(4,-1.5,3.9f);
         //std::cout << q.x << " "<< q.y << " " << q.z << std::endl;
 
-       Vertex q = Vertex(4.5+u,-0.5+ v,3.9f);
-        std::cout << q.x << " "<< q.y << " " << q.z << std::endl;
+       Vertex q = Vertex(4.5+u,-0.5+ v,4.8f);
+        //std::cout << q.x << " "<< q.y << " " << q.z << std::endl;
 
         Direction s_i = q - r.getEnd();
-        float d_i = glm::length(s_i);
-        //float cos_alpha =  glm::max(0.f,glm::dot(-s_i,lightNormal));
-        //float cos_beta = glm::max(0.f, glm::dot(s_i,r.getObjectNormal()));
-        float cos_alpha = glm::dot(-s_i,lightNormal);
-        float cos_beta = glm::dot(s_i,r.getObjectNormal());
 
-        //shadow ray
+        //normalize s_i
+
+        float d_i = glm::length(s_i);
 
         float length_of_cross = sqrt((s_i.x * s_i.x) + (s_i.y * s_i.y) + (s_i.z * s_i.z));
         Direction rayDir = Direction (s_i.x / length_of_cross, s_i.y / length_of_cross, s_i.z / length_of_cross);
 
+        float cos_alpha =  glm::max(0.f,glm::dot(-rayDir,lightNormal));
+        float cos_beta = glm::max(0.f, glm::dot(rayDir,r.getObjectNormal()));
+        //float cos_alpha = glm::dot(-s_i,lightNormal);
+        //float cos_beta = glm::dot(s_i,r.getObjectNormal());
+
+        //shadow ray
+
+
+
 
         Ray shadowRay = Ray(r.getEnd(), rayDir, SHADOW);
-        //rayIntersection(shadowRay, 0);
+        rayIntersection(shadowRay, 0);
         float shadowRayLength = glm::length(shadowRay.getEnd() - shadowRay.getStart());
 
-        if(isIntersected(shadowRay,minDist,0)){
-       // if(shadowRayLength < d_i) {
-            vk = 0.0f;
+        //if(isIntersected(shadowRay,minDist,0)){
+        if(shadowRayLength < d_i) {
+            vk = 0;
         }
         else vk = 1.0f;
 
@@ -223,6 +229,6 @@ ColorDbl Scene::computeDirectLight(Ray &r, float &minDist) {
     //surface A of light source
     float A = glm::length(glm::cross(v1-v0, v3-v0));
 
-    return  ((L0 * A * sum / float(M)));
+    return  ((L0 * A * sum / float(M+1)));
 
 }
