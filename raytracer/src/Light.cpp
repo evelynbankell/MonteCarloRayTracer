@@ -8,12 +8,12 @@ Light::Light() {
     color = ColorDbl (255, 255, 255);
     length = 1.0;
 
-    point = Vertex (5, 0, 5);
+    point = Vertex (5, 0, 4.9);
 
-    v0 = Vertex(4.5,-0.5,4);
-    v1 = Vertex(5.5,-0.5,4);
-    v2 = Vertex(4.5,0.5,4);
-    v3 = Vertex(5.5,0.5,4);
+    v0 = Vertex(4.5,-0.5,4.5);
+    v1 = Vertex(5.5,-0.5,4.5);
+    v2 = Vertex(4.5,0.5,4.5);
+    v3 = Vertex(5.5,0.5,4.5);
 
     triangles[1] = Triangle(v1, v3, v0, color, LIGHT);
     triangles[0] = Triangle(v2, v0, v3, color, LIGHT);

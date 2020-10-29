@@ -192,7 +192,7 @@ ColorDbl Scene::computeDirectLight(Ray &r, float &minDist) {
         //q += Vertex(4,-1.5,3.9f);
         //std::cout << q.x << " "<< q.y << " " << q.z << std::endl;
 
-       Vertex q = Vertex(4.5+u,-0.5+ v,4.8f);
+       Vertex q = Vertex(4.5+u,-0.5+ v,4.4f);
         //std::cout << q.x << " "<< q.y << " " << q.z << std::endl;
 
         Direction s_i = q - r.getEnd();
