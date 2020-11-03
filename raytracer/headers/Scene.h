@@ -27,6 +27,7 @@ public:
     void rayIntersection(Ray &r, int depth);
     bool isIntersected(Ray &r, float minDist, int depth);
     ColorDbl computeDirectLight(Ray &r, float &minDist);
+    ColorDbl computeIndirectLight(Ray &r, int depth);
 
 private:
     //Triangle triangleList[24];

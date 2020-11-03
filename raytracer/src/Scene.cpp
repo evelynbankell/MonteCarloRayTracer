@@ -93,7 +93,7 @@ bool Scene::isIntersected(Ray &r, float minDist, int depth) {
 void Scene::rayIntersection(Ray &r, int depth) {
 
     r.setColor(ColorDbl(0.0f,0.0f,0.0f));
-    //if(depth > 5) return;
+    if(depth > 5) return;
 
     float minDist = 1000.0f;
 
@@ -110,44 +110,34 @@ void Scene::rayIntersection(Ray &r, int depth) {
     if(r.getRayType() != SHADOW) {
         switch(r.getMaterial()) {
             case MIRROR: {
-
+                //Normalize object normal
                 float length_of = sqrt((r.getObjectNormal().x * r.getObjectNormal().x) + (r.getObjectNormal().y * r.getObjectNormal().y) + (r.getObjectNormal().z * r.getObjectNormal().z));
                 Direction norm_normal = Direction (r.getObjectNormal().x / length_of, r.getObjectNormal().y / length_of, r.getObjectNormal().z / length_of);
 
+                //Normalize ray direction
                 float length = sqrt((r.getDir().x * r.getDir().x) + (r.getDir().y * r.getDir().y) + (r.getDir().z * r.getDir().z));
                 Direction norm_dir = Direction (r.getDir().x / length, r.getDir().y / length, r.getDir().z / length);
 
-
+                //Perfect reflection
                 Direction reflected= glm::reflect(norm_dir, norm_normal);
 
-                 length = sqrt((reflected.x * reflected.x) + (reflected.y * reflected.y) + (reflected.z * reflected.z));
+                //Normalize reflected ray
+                length = sqrt((reflected.x * reflected.x) + (reflected.y * reflected.y) + (reflected.z * reflected.z));
                 Direction norm_ref = Direction (reflected.x / length, reflected.y / length, reflected.z / length);
 
-                    Ray reflectedRay(r.getEnd(), norm_ref,REFLECTION);
+                //Create reflected ray
+                Ray reflectedRay(r.getEnd(), norm_ref,REFLECTION);
 
-                    /*if(isIntersected(reflectedRay, minDist, depth)) {
-                        r.setColor(reflectedRay.getColor()*0.9f);
-                        std::cout << r.getColor().x;
-                    }*/
-
-                    rayIntersection(reflectedRay,0);
-                    r.setColor(reflectedRay.getColor()*0.9f);
-
-
-
-                    break;
-
-            }
-            case LIGHT: {
-
+                //Cast reflected ray
+                rayIntersection(reflectedRay,depth+1);
+                //Get color of intersection
+                r.setColor(reflectedRay.getColor());
                 break;
             }
             case LAMBERTIAN : {
-
-
-
-
-                r.setColor(computeDirectLight(r, minDist));
+                ColorDbl direct = computeDirectLight(r, minDist);
+                ColorDbl inDirect = computeIndirectLight(r, depth);
+                r.setColor(direct + inDirect);
                 break;
             }
             default: break;
@@ -168,36 +158,24 @@ ColorDbl Scene::computeDirectLight(Ray &r, float &minDist) {
     std::random_device rd;
     std::default_random_engine generator(rd());
 
-
     Vertex v0 = lightsource.getv0();
     Vertex v1 = lightsource.getv1();
     Vertex v2 = lightsource.getv2();
     Vertex v3 = lightsource.getv3();
 
-
-
+    //light normal
     Direction lightNormal = Direction (0.0f,0.0f,-1.0f);
 
     int M = 5;
-    for(int i = 0; i < M; i++){
+    for(int i = 1; i <= M; i++){
         float vk;
         //parametrize point q on the area light
         float u = distribution(generator);
         float v = distribution(generator);
 
-
-        //random point on light surface
-        //Vertex q = Vertex(u*(v1-v0) + v*(v3-v0));
-        //move to global coordinates
-        //q += Vertex(4,-1.5,3.9f);
-        //std::cout << q.x << " "<< q.y << " " << q.z << std::endl;
-
-       Vertex q = Vertex(4.5+u,-0.5+ v,4.4f);
-        //std::cout << q.x << " "<< q.y << " " << q.z << std::endl;
+        Vertex q = Vertex(4.5+u,-0.5+ v,4.4f);
 
         Direction s_i = q - r.getEnd();
-
-        //normalize s_i
 
         float d_i = glm::length(s_i);
 
@@ -206,19 +184,15 @@ ColorDbl Scene::computeDirectLight(Ray &r, float &minDist) {
 
         float cos_alpha =  glm::max(0.f,glm::dot(-rayDir,lightNormal));
         float cos_beta = glm::max(0.f, glm::dot(rayDir,r.getObjectNormal()));
-        //float cos_alpha = glm::dot(-s_i,lightNormal);
-        //float cos_beta = glm::dot(s_i,r.getObjectNormal());
 
-        //shadow ray
-
-
-
-
+        //create shadow ray
         Ray shadowRay = Ray(r.getEnd(), rayDir, SHADOW);
+        //cast shadow ray
         rayIntersection(shadowRay, 0);
+
         float shadowRayLength = glm::length(shadowRay.getEnd() - shadowRay.getStart());
 
-        //if(isIntersected(shadowRay,minDist,0)){
+        //check visibility
         if(shadowRayLength < d_i) {
             vk = 0;
         }
@@ -229,6 +203,57 @@ ColorDbl Scene::computeDirectLight(Ray &r, float &minDist) {
     //surface A of light source
     float A = glm::length(glm::cross(v1-v0, v3-v0));
 
-    return  ((L0 * A * sum / float(M+1)));
-
+    return  ((L0 * A * sum / float(M)));
 }
+
+ColorDbl Scene::computeIndirectLight(Ray &r, int  depth) {
+    std::uniform_real_distribution<float> distribution(0.0f,1.0f);
+    std::random_device rd;
+    std::default_random_engine generator(rd());
+
+    ColorDbl indirectLight(0,0,0);
+
+    Direction I = r.getDir();
+    Direction Z = r.getObjectNormal();
+
+    Direction I_ortho = I - glm::dot(I,Z)*Z;
+    Direction X = I_ortho/glm::length(I_ortho);
+    Direction Y = glm::cross(-X,Z);
+
+    glm::mat4 a;
+    a[0] = glm::vec4(X.x, Y.x, Z.x,0);
+    a[1] = glm::vec4(X.y, Y.y, Z.y, 0);
+    a[2] = glm::vec4(X.z, Y.z, Z.z, 0);
+    a[3] = glm::vec4(0, 0, 0, 1);
+    glm::mat4 b;
+    b[0] = glm::vec4(1, 0, 0, 0);
+    b[1] = glm::vec4(0, 1, 0, 0);
+    b[2] = glm::vec4(0, 0, 1, 0);
+    b[3] = glm::vec4(-r.getEnd().x, -r.getEnd().y, -r.getEnd().z, 1);
+    glm::mat4 M = a * b;
+
+    int numberOfRays = 3;
+    for(int i =0 ; i < numberOfRays; ++i) {
+
+        float f1 = distribution(generator);
+        float f2 = distribution(generator);
+        float azimuth = 2.f * M_PI * f1;
+        float inclination = acos(1-2*f2);
+        float x = sin(azimuth)*sin(inclination);
+        float y = sin(azimuth)*cos(inclination);
+        float z = sin(inclination);
+
+        glm::vec4 v_W(x,y,z,0);
+
+        glm::vec4 v_I = M*v_W;
+        Direction random_direction (v_I.x, v_I.y, v_I.z);
+
+        Ray randomRay(r.getEnd(), random_direction, SECONDARY);
+
+        rayIntersection(randomRay, depth+1);
+        indirectLight += 0.8f * randomRay.getColor();
+    }
+
+    return indirectLight/=numberOfRays;
+}
+

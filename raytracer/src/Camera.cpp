@@ -46,8 +46,9 @@ void Camera::render(Scene s) {
             Direction testN = Direction (test.x / length_of_test, test.y / length_of_test, test.z / length_of_test);
 
 
-            //std::cout << "x: " << test.x << " " << test.y <<  " " << test.z << std::endl;
-            //std::cout << testN.x << " " << testN.y <<  " " << testN.z << std::endl;
+            float f = ((y*800.f)+ x)/(800.f*800.f)*100;
+
+            std::cout << f << " %" << std::endl;
             Ray ray (start, testN, PRIMARY);
             int depth = 0;
             s.rayIntersection(ray, depth);
