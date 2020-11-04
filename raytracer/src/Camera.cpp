@@ -34,6 +34,7 @@ Camera::~Camera() {
 void Camera::render(Scene s) {
 
     for (int y = 0; y < 800; y++) {
+        std::cout << y/(80.f*80.f) << "%" << std::endl;
         for (int x = 0; x < 800; x++) {
 
             Vertex position = Vertex(0, 1 - x * pixelSize, 1 - y * pixelSize);
@@ -46,9 +47,7 @@ void Camera::render(Scene s) {
             Direction testN = Direction (test.x / length_of_test, test.y / length_of_test, test.z / length_of_test);
 
 
-            float f = ((y*800.f)+ x)/(800.f*800.f)*100;
 
-            std::cout << f << " %" << std::endl;
             Ray ray (start, testN, PRIMARY);
             int depth = 0;
             s.rayIntersection(ray, depth);
@@ -67,7 +66,9 @@ void Camera::createImage() {
 
         std::cout << "Write to Output.ppm" << std::endl;
 
-        double factor = 255.99/findMaxIntensity();
+        std:: cout << findMaxIntensity() << std::endl;
+        double factor = 255/findMaxIntensity();
+        std::cout << factor;
 
         for (int y = 0; y < SCREEN_RESOLUTION; y++) {
             for (int x = 0; x < SCREEN_RESOLUTION; x++) {

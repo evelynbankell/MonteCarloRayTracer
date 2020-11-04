@@ -5,7 +5,7 @@
 #include "../headers/Light.h"
 
 Light::Light() {
-    color = ColorDbl (255, 255, 255);
+    color = ColorDbl (1, 1, 1);
     length = 1.0;
 
     point = Vertex (5, 0, 4.9);

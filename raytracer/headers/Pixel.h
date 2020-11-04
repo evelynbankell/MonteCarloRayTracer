@@ -22,7 +22,7 @@ public:
 
 private:
     ColorDbl color;
-    float intensity = 1.0;
+    float intensity = 1;
 
 };
 

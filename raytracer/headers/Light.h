@@ -25,7 +25,7 @@ public:
 private:
     double length;
     ColorDbl color;
-    float L0 = 255;
+    float L0 = 1;
 
     Direction normal;
     Vertex v0, v1, v2, v3;

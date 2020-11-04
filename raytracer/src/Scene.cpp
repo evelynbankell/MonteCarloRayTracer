@@ -10,57 +10,57 @@
 Scene::Scene() {
 
     //ROOF - white color
-    triangleList[0] = Triangle(Vertex(5.0,0.0,5.0),Vertex(0.0,6.0,5.0),Vertex(-3.0,0.0,5.0), ColorDbl(255,255,255), LAMBERTIAN);
-    triangleList[1] = Triangle(Vertex(5.0,0.0,5.0),Vertex(10.0,6.0,5.0),Vertex(0.0,6.0,5.0), ColorDbl(255,255,255), LAMBERTIAN);
-    triangleList[2] = Triangle(Vertex(5.0,0.0,5.0),Vertex(13.0,0.0,5.),Vertex(10.0,6.0,5.0), ColorDbl(255,255,255), LAMBERTIAN);
-    triangleList[3] = Triangle(Vertex(5.0,0.0,5.0),Vertex(-3.0,0.0,5.0),Vertex(0.0,-6.0,5.0), ColorDbl(255,255,255), LAMBERTIAN);
-    triangleList[4] = Triangle(Vertex(5.0,0.0,5.0),Vertex(0.0,-6.0,5.0),Vertex(10.0,-6.0,5.0), ColorDbl(255,255,255), LAMBERTIAN);
-    triangleList[5] = Triangle(Vertex(5.0,0.0,5.0),Vertex(10.0,-6.0,5.0),Vertex(13.0,0.0,5.0), ColorDbl(255,255,255), LAMBERTIAN);
+    triangleList[0] = Triangle(Vertex(5.0,0.0,5.0),Vertex(0.0,6.0,5.0),Vertex(-3.0,0.0,5.0), ColorDbl(1,1,1), LAMBERTIAN);
+    triangleList[1] = Triangle(Vertex(5.0,0.0,5.0),Vertex(10.0,6.0,5.0),Vertex(0.0,6.0,5.0), ColorDbl(1,1,1), LAMBERTIAN);
+    triangleList[2] = Triangle(Vertex(5.0,0.0,5.0),Vertex(13.0,0.0,5.),Vertex(10.0,6.0,5.0), ColorDbl(1,1,1), LAMBERTIAN);
+    triangleList[3] = Triangle(Vertex(5.0,0.0,5.0),Vertex(-3.0,0.0,5.0),Vertex(0.0,-6.0,5.0), ColorDbl(1,1,1), LAMBERTIAN);
+    triangleList[4] = Triangle(Vertex(5.0,0.0,5.0),Vertex(0.0,-6.0,5.0),Vertex(10.0,-6.0,5.0), ColorDbl(1,1,1), LAMBERTIAN);
+    triangleList[5] = Triangle(Vertex(5.0,0.0,5.0),Vertex(10.0,-6.0,5.0),Vertex(13.0,0.0,5.0), ColorDbl(1,1,1), LAMBERTIAN);
 
     // FLOOR
-    triangleList[6] = Triangle(Vertex(5.0,0.0,-5.0),Vertex(-3.0,0.0,-5.0),Vertex(0.0,6.0,-5.0), ColorDbl(255,255,255), LAMBERTIAN);
-   	triangleList[7] = Triangle(Vertex(5.0,0.0,-5.0),Vertex(0.0,6.0,-5.0),Vertex(10.0,6.0,-5.0), ColorDbl(255,255,255), LAMBERTIAN);
-   	triangleList[8] = Triangle(Vertex(5.0,0.0,-5.0),Vertex(10.0,6.0,-5.0),Vertex(13.0,0.0,-5.0), ColorDbl(255,255,255), LAMBERTIAN);
-    triangleList[9] = Triangle(Vertex(5.0,0.0,-5.0),Vertex(0.0,-6.0,-5.0),Vertex(-3.0,0.0,-5.0), ColorDbl(255,255,255), LAMBERTIAN);
-    triangleList[10] = Triangle(Vertex(5.0,0.0,-5.0),Vertex(10.0,-6.0,-5.0),Vertex(0.0,-6.0,-5.0), ColorDbl(255,255,255), LAMBERTIAN);
-    triangleList[11] = Triangle(Vertex(5.0,0.0,-5.0),Vertex(13.0,0.0,-5.0),Vertex(10.0,-6.0,-5.0), ColorDbl(255,255,255), LAMBERTIAN);
+    triangleList[6] = Triangle(Vertex(5.0,0.0,-5.0),Vertex(-3.0,0.0,-5.0),Vertex(0.0,6.0,-5.0), ColorDbl(1,1,1), LAMBERTIAN);
+   	triangleList[7] = Triangle(Vertex(5.0,0.0,-5.0),Vertex(0.0,6.0,-5.0),Vertex(10.0,6.0,-5.0), ColorDbl(1,1,1), LAMBERTIAN);
+   	triangleList[8] = Triangle(Vertex(5.0,0.0,-5.0),Vertex(10.0,6.0,-5.0),Vertex(13.0,0.0,-5.0), ColorDbl(1,1,1), LAMBERTIAN);
+    triangleList[9] = Triangle(Vertex(5.0,0.0,-5.0),Vertex(0.0,-6.0,-5.0),Vertex(-3.0,0.0,-5.0), ColorDbl(1,1,1), LAMBERTIAN);
+    triangleList[10] = Triangle(Vertex(5.0,0.0,-5.0),Vertex(10.0,-6.0,-5.0),Vertex(0.0,-6.0,-5.0), ColorDbl(1,1,1), LAMBERTIAN);
+    triangleList[11] = Triangle(Vertex(5.0,0.0,-5.0),Vertex(13.0,0.0,-5.0),Vertex(10.0,-6.0,-5.0), ColorDbl(1,1,1), LAMBERTIAN);
 
     // WALLS
     // blue color
-    triangleList[12] = Triangle(Vertex(-3.0,0.0,-5.0),Vertex(-3.0,0.0,5.0),Vertex(0.0,6.0,5.0), ColorDbl(0,0,255), LAMBERTIAN);
-    triangleList[13] = Triangle(Vertex(-3.0,0.0,-5.0),Vertex(0.0,6.0,5.0),Vertex(0.0,6.0,-5.0), ColorDbl(0,0,255), LAMBERTIAN);
+    triangleList[12] = Triangle(Vertex(-3.0,0.0,-5.0),Vertex(-3.0,0.0,5.0),Vertex(0.0,6.0,5.0), ColorDbl(0,0,0.8), LAMBERTIAN);
+    triangleList[13] = Triangle(Vertex(-3.0,0.0,-5.0),Vertex(0.0,6.0,5.0),Vertex(0.0,6.0,-5.0), ColorDbl(0,0,0.8), LAMBERTIAN);
 
     // Green color
-    triangleList[14] = Triangle(Vertex(0.0,6.0,-5.0),Vertex(0.0,6.0,5.0),Vertex(10.0,6.0,5.0), ColorDbl(0,128,0), LAMBERTIAN);
-    triangleList[15] = Triangle(Vertex(0.0,6.0,-5.0),Vertex(10.0,6.0,5.0),Vertex(10.0,6.0,-5.0), ColorDbl(0,128,0), LAMBERTIAN);
+    triangleList[14] = Triangle(Vertex(0.0,6.0,-5.0),Vertex(0.0,6.0,5.0),Vertex(10.0,6.0,5.0), ColorDbl(0,0.5,0), LAMBERTIAN);
+    triangleList[15] = Triangle(Vertex(0.0,6.0,-5.0),Vertex(10.0,6.0,5.0),Vertex(10.0,6.0,-5.0), ColorDbl(0,0.5,0), LAMBERTIAN);
 
     // red
-    triangleList[16] = Triangle(Vertex(10.0,6.0,-5.0),Vertex(10.0,6.0,5.0),Vertex(13.0,0.0,5.0), ColorDbl(128,0,0), LAMBERTIAN);
-    triangleList[17] = Triangle(Vertex(10.0,6.0,-5.0),Vertex(13.0,0.0,5.0),Vertex(13.0,0.0,-5.0), ColorDbl(128,0,0), LAMBERTIAN);
+    triangleList[16] = Triangle(Vertex(10.0,6.0,-5.0),Vertex(10.0,6.0,5.0),Vertex(13.0,0.0,5.0), ColorDbl(0.5,0,0), LAMBERTIAN);
+    triangleList[17] = Triangle(Vertex(10.0,6.0,-5.0),Vertex(13.0,0.0,5.0),Vertex(13.0,0.0,-5.0), ColorDbl(0.5,0,0), LAMBERTIAN);
 
     // Yellow color
-    triangleList[18] = Triangle(Vertex(0.0,-6.0,-5.0),Vertex(0.0,-6.0,5.0),Vertex(-3.0,0.0,5.0), ColorDbl(255, 255, 0), LAMBERTIAN);
-    triangleList[19] = Triangle(Vertex(0.0,-6.0,-5.0),Vertex(-3.0,0.0,5.0),Vertex(-3.0,0.0,-5.0), ColorDbl(255, 255, 0), LAMBERTIAN);
+    triangleList[18] = Triangle(Vertex(0.0,-6.0,-5.0),Vertex(0.0,-6.0,5.0),Vertex(-3.0,0.0,5.0), ColorDbl(0.8, 0.8, 0), LAMBERTIAN);
+    triangleList[19] = Triangle(Vertex(0.0,-6.0,-5.0),Vertex(-3.0,0.0,5.0),Vertex(-3.0,0.0,-5.0), ColorDbl(0.8, 0.8, 0), LAMBERTIAN);
 
     // Purple color
-    triangleList[20] = Triangle(Vertex(10.0,-6.0,-5.0),Vertex(10.0,-6.0,5.0),Vertex(0.0,-6.0,5.0), ColorDbl(255, 0, 255), LAMBERTIAN);
-    triangleList[21] = Triangle(Vertex(10.0,-6.0,-5.0),Vertex(0.0,-6.0,5.0),Vertex(0.0,-6.0,-5.0), ColorDbl(255, 0, 255), LAMBERTIAN);
+    triangleList[20] = Triangle(Vertex(10.0,-6.0,-5.0),Vertex(10.0,-6.0,5.0),Vertex(0.0,-6.0,5.0), ColorDbl(0.8, 0, 0.8), LAMBERTIAN);
+    triangleList[21] = Triangle(Vertex(10.0,-6.0,-5.0),Vertex(0.0,-6.0,5.0),Vertex(0.0,-6.0,-5.0), ColorDbl(0.8, 0, 0.8), LAMBERTIAN);
 
     // Light blue color
-    triangleList[22] = Triangle(Vertex(13.0,0.0,-5.0),Vertex(13.0,0.0,5.0),Vertex(10.0,-6.0,5.0), ColorDbl(0, 255, 255), LAMBERTIAN);
-    triangleList[23] = Triangle(Vertex(13.0,0.0,-5.0),Vertex(10.0,-6.0,5.0),Vertex(10.0,-6.0,-5.0), ColorDbl(0, 255, 255), LAMBERTIAN);
+    triangleList[22] = Triangle(Vertex(13.0,0.0,-5.0),Vertex(13.0,0.0,5.0),Vertex(10.0,-6.0,5.0), ColorDbl(0, 0.8, 0.8), LAMBERTIAN);
+    triangleList[23] = Triangle(Vertex(13.0,0.0,-5.0),Vertex(10.0,-6.0,5.0),Vertex(10.0,-6.0,-5.0), ColorDbl(0, 0.8, 0.8), LAMBERTIAN);
 
     //Lamp
     //triangleList[24] = Triangle(Vertex(5.5,-1.5,4), Vertex(4.5,1.5,4), Vertex(5.5,-1.5,4), ColorDbl(0,0,0), LIGHT);
     //triangleList[25] = Triangle(Vertex(5.5,-1.5,4), Vertex(4.5,1.5,4), Vertex(5.5,1.5,4), ColorDbl(0,0,0) , LIGHT);
 
-    tetrahedron = Tetrahedron(ColorDbl(255,255,200), LAMBERTIAN);
+    tetrahedron = Tetrahedron(ColorDbl(0.5,0.5,0.5), LAMBERTIAN);
 
-    sphere = Sphere(1.5, Vertex(7,2,-2), ColorDbl(255,99,71), LAMBERTIAN);
+    sphere = Sphere(1.5, Vertex(7,2,-2), ColorDbl(0,0.3,0.2), LAMBERTIAN);
 
     sphere2 = Sphere(1, Vertex(5,0,-1), ColorDbl(0,0,0), MIRROR);
 
-    sphere3 = Sphere(2, Vertex(4,4,-2), ColorDbl(0,99,71), LAMBERTIAN);
+    sphere3 = Sphere(2, Vertex(4,4,-2), ColorDbl(0.8,0.2,0.2), LAMBERTIAN);
 
     lightsource = Light();
 }
@@ -166,7 +166,7 @@ ColorDbl Scene::computeDirectLight(Ray &r, float &minDist) {
     //light normal
     Direction lightNormal = Direction (0.0f,0.0f,-1.0f);
 
-    int M = 5;
+    int M = 4;
     for(int i = 1; i <= M; i++){
         float vk;
         //parametrize point q on the area light
@@ -182,8 +182,8 @@ ColorDbl Scene::computeDirectLight(Ray &r, float &minDist) {
         float length_of_cross = sqrt((s_i.x * s_i.x) + (s_i.y * s_i.y) + (s_i.z * s_i.z));
         Direction rayDir = Direction (s_i.x / length_of_cross, s_i.y / length_of_cross, s_i.z / length_of_cross);
 
-        float cos_alpha =  glm::max(0.f,glm::dot(-rayDir,lightNormal));
-        float cos_beta = glm::max(0.f, glm::dot(rayDir,r.getObjectNormal()));
+        float cos_alpha =  glm::max(0.f,glm::dot(-s_i,lightNormal));
+        float cos_beta = glm::max(0.f, glm::dot(s_i,r.getObjectNormal()));
 
         //create shadow ray
         Ray shadowRay = Ray(r.getEnd(), rayDir, SHADOW);
@@ -198,12 +198,17 @@ ColorDbl Scene::computeDirectLight(Ray &r, float &minDist) {
         }
         else vk = 1.0f;
 
-        sum += brdf * r.getColor()*vk*(cos_alpha*cos_beta/(d_i*d_i));
+
+            std::cout << r.getColor().x << std::endl;
+
+        sum += r.getColor()*vk*(cos_alpha*cos_beta/(d_i*d_i));
+       // std::cout << sum.x << " " << sum.y << " " << sum.z << std::endl;
     }
     //surface A of light source
     float A = glm::length(glm::cross(v1-v0, v3-v0));
 
-    return  ((L0 * A * sum / float(M)));
+
+    return  (( sum * A/ float(M)));
 }
 
 ColorDbl Scene::computeIndirectLight(Ray &r, int  depth) {
@@ -215,6 +220,12 @@ ColorDbl Scene::computeIndirectLight(Ray &r, int  depth) {
 
     Direction I = r.getDir();
     Direction Z = r.getObjectNormal();
+
+    //float length_of_cross = sqrt((I.x * I.x) + (I.y * I.y) + (I.z * I.z));
+    //I = Direction (I.x / length_of_cross, I.y / length_of_cross, I.z / length_of_cross);
+
+    //length_of_cross = sqrt((Z.x * Z.x) + (Z.y * Z.y) + (Z.z * Z.z));
+    //Z = Direction (Z.x / length_of_cross, Z.y / length_of_cross, Z.z / length_of_cross);
 
     Direction I_ortho = I - glm::dot(I,Z)*Z;
     Direction X = I_ortho/glm::length(I_ortho);
@@ -232,13 +243,13 @@ ColorDbl Scene::computeIndirectLight(Ray &r, int  depth) {
     b[3] = glm::vec4(-r.getEnd().x, -r.getEnd().y, -r.getEnd().z, 1);
     glm::mat4 M = a * b;
 
-    int numberOfRays = 3;
-    for(int i =0 ; i < numberOfRays; ++i) {
+    int numberOfRays = 1;
+    for(int i =0 ; i < numberOfRays; i++) {
 
         float f1 = distribution(generator);
         float f2 = distribution(generator);
         float azimuth = 2.f * M_PI * f1;
-        float inclination = acos(1-2*f2);
+        float inclination = acos(1-2*f2); //glm::acos(1 - f2)//acos(sqrt(f2)));
         float x = sin(azimuth)*sin(inclination);
         float y = sin(azimuth)*cos(inclination);
         float z = sin(inclination);
@@ -248,12 +259,18 @@ ColorDbl Scene::computeIndirectLight(Ray &r, int  depth) {
         glm::vec4 v_I = M*v_W;
         Direction random_direction (v_I.x, v_I.y, v_I.z);
 
-        Ray randomRay(r.getEnd(), random_direction, SECONDARY);
+        float length_of_cross = sqrt((random_direction.x * random_direction.x) + (random_direction.y * random_direction.y) + (random_direction.z * random_direction.z));
+        Direction randomDirectionNormalize = Direction (random_direction.x / length_of_cross, random_direction.y / length_of_cross, random_direction.z / length_of_cross);
+
+        Ray randomRay(r.getEnd(), randomDirectionNormalize, SECONDARY);
 
         rayIntersection(randomRay, depth+1);
-        indirectLight += 0.8f * randomRay.getColor();
+        if(randomRay.getColor().x>1.0f)
+            std::cout << randomRay.getColor().x << std::endl;
+        indirectLight += 0.9f * randomRay.getColor();// Importance, M_PI is because of the importance sampling
+
     }
 
-    return indirectLight/=numberOfRays;
+    return indirectLight / (float)numberOfRays;
 }
 
