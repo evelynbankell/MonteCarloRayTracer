@@ -31,6 +31,7 @@ public:
 private:
 
     const int SCREEN_RESOLUTION = 800;
+    const int subPixel = 4;
 
     const Vertex eye1 = Vertex(-1, 0, 0);
     const Vertex eye2 = Vertex(-1, 0, 0);

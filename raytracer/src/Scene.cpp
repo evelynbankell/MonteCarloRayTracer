@@ -198,10 +198,7 @@ ColorDbl Scene::computeDirectLight(Ray &r, float &minDist) {
         }
         else vk = 1.0f;
 
-
-            std::cout << r.getColor().x << std::endl;
-
-        sum += r.getColor()*vk*(cos_alpha*cos_beta/(d_i*d_i));
+        sum += 0.9f * r.getColor()*vk*(cos_alpha*cos_beta/(d_i*d_i));
        // std::cout << sum.x << " " << sum.y << " " << sum.z << std::endl;
     }
     //surface A of light source
@@ -217,6 +214,14 @@ ColorDbl Scene::computeIndirectLight(Ray &r, int  depth) {
     std::default_random_engine generator(rd());
 
     ColorDbl indirectLight(0,0,0);
+
+    //Russian roulette
+    float randomValue = distribution(generator);
+    float maxIntensity = glm::max(glm::max(r.getColor().x, r.getColor().y),r.getColor().z);
+
+    if(!(randomValue < maxIntensity)) {
+        return indirectLight;
+    }
 
     Direction I = r.getDir();
     Direction Z = r.getObjectNormal();
@@ -243,34 +248,57 @@ ColorDbl Scene::computeIndirectLight(Ray &r, int  depth) {
     b[3] = glm::vec4(-r.getEnd().x, -r.getEnd().y, -r.getEnd().z, 1);
     glm::mat4 M = a * b;
 
-    int numberOfRays = 1;
-    for(int i =0 ; i < numberOfRays; i++) {
 
         float f1 = distribution(generator);
         float f2 = distribution(generator);
-        float azimuth = 2.f * M_PI * f1;
-        float inclination = acos(1-2*f2); //glm::acos(1 - f2)//acos(sqrt(f2)));
-        float x = sin(azimuth)*sin(inclination);
-        float y = sin(azimuth)*cos(inclination);
-        float z = sin(inclination);
 
-        glm::vec4 v_W(x,y,z,0);
+    /*
+    float azimuth = (2.f * M_PI ) * f1;
+    float inclination = acos(sqrt(f2)); //glm::acos(1 - f2)//acos(sqrt(f2)))//1-2*f2;
+    float x = sin(azimuth)*sin(inclination);
+    float y = sin(azimuth)*cos(inclination);
+    float z = sin(inclination);*/
+
+    float sinTheta = glm::max(sqrt(1.0f - f1 * f1),0.f);
+    float phi = 2.0f * M_PI * f2;
+    float x = sinTheta * cosf(phi);
+    float z = sinTheta * sinf(phi);
+
+    Direction Nt,Nb;
+
+    Direction N = r.getObjectNormal();
+
+    if (std::fabs(N.x) > std::fabs(N.y))
+        Nt = Direction(N.z, 0.0f, -N.x) / (float)sqrt(N.x * N.x + N.z * N.z);
+    else
+        Nt = Direction(0.0f, -N.z, N.y) / (float)sqrt(N.y * N.y + N.z * N.z);
+    Nb = glm::cross(N, Nt);
+
+
+
+        glm::vec4 v_W(x,f1,z,0);
+
+        //Direction sample(x,f1,z);
 
         glm::vec4 v_I = M*v_W;
         Direction random_direction (v_I.x, v_I.y, v_I.z);
+
+    /*Direction random_direction(
+            sample.x * Nb.x + sample.y * r.getObjectNormal().x + sample.z * Nt.x,
+            sample.x * Nb.y + sample.y * r.getObjectNormal().y + sample.z * Nt.y,
+            sample.x * Nb.z + sample.y * r.getObjectNormal().z + sample.z * Nt.z);*/
 
         float length_of_cross = sqrt((random_direction.x * random_direction.x) + (random_direction.y * random_direction.y) + (random_direction.z * random_direction.z));
         Direction randomDirectionNormalize = Direction (random_direction.x / length_of_cross, random_direction.y / length_of_cross, random_direction.z / length_of_cross);
 
         Ray randomRay(r.getEnd(), randomDirectionNormalize, SECONDARY);
 
-        rayIntersection(randomRay, depth+1);
-        if(randomRay.getColor().x>1.0f)
-            std::cout << randomRay.getColor().x << std::endl;
-        indirectLight += 0.9f * randomRay.getColor();// Importance, M_PI is because of the importance sampling
+        rayIntersection(randomRay, depth + 1);
+        if (randomRay.getColor().x > 1.0f)
+            //std::cout << randomRay.getColor().x << std::endl;
 
-    }
+        float d_i = glm::length(randomRay.getEnd()-r.getEnd());
 
-    return indirectLight / (float)numberOfRays;
+    return 0.9f * randomRay.getColor() ;// Importance, M_PI is because of the importance sampling;
 }
 

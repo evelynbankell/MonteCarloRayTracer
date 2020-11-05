@@ -7,6 +7,7 @@
 #include <cstdlib>
 #include <cmath>
 #include "../headers/Camera.h"
+#include <random>
 
 
 Camera::Camera(int eye_perspective) {
@@ -32,27 +33,45 @@ Camera::~Camera() {
 }
 
 void Camera::render(Scene s) {
+    std::uniform_real_distribution<float> distribution(0.0f,1.0f);
+    std::random_device rd;
+    std::default_random_engine generator(rd());
+
+    float subPixelLength = pixelSize/float(subPixel);
+
+    Vertex position;
+    Vertex sub_position;
 
     for (int y = 0; y < 800; y++) {
-        std::cout << y/(80.f*80.f) << "%" << std::endl;
+        if (y % 10 == 0) std::cout << "\r" << (float)y*100.0f/float(800) << "%" << std::endl;
         for (int x = 0; x < 800; x++) {
+            //std::cout << ((y*x)+800)/(800.f*800.f)*100 << "%" << std::endl;
+            position = Vertex(0,  1 -x * pixelSize , 1 -y * pixelSize );
+            ColorDbl sampledPixelColor = ColorDbl (0,0,0);
 
-            Vertex position = Vertex(0, 1 - x * pixelSize, 1 - y * pixelSize);
+            //supersamplig
+            for(int i = 0; i < subPixel; i++) {
 
-            Direction test;
-            test.x = position.x - start.x;
-            test.y = position.y - start.y;
-            test.z = position.z - start.z;
-            float length_of_test = sqrt((test.x * test.x) + (test.y * test.y) + (test.z * test.z));
-            Direction testN = Direction (test.x / length_of_test, test.y / length_of_test, test.z / length_of_test);
+                for(int j = 0; j < subPixel; j++) {
+                    sub_position = position - Vertex(0,(j + distribution(generator))*subPixelLength,(i + distribution(generator))*subPixelLength);
 
+                    Direction test;
+                    test.x = sub_position.x - start.x;
+                    test.y = sub_position.y - start.y;
+                    test.z = sub_position.z - start.z;
+                    float length_of_test = sqrt((test.x * test.x) + (test.y * test.y) + (test.z * test.z));
+                    Direction testN = Direction (test.x / length_of_test, test.y / length_of_test, test.z / length_of_test);
 
+                    Ray ray (start, testN, PRIMARY);
+                    int depth = 0;
+                    s.rayIntersection(ray, depth);
+                    sampledPixelColor += ray.getColor();
+                }
+            }
 
-            Ray ray (start, testN, PRIMARY);
-            int depth = 0;
-            s.rayIntersection(ray, depth);
-            ColorDbl color = ray.getColor();
-            screen[y][x].setColor(color);
+            ColorDbl pixelColor = sampledPixelColor/((float)subPixel*(float)subPixel);
+
+            screen[y][x].setColor(pixelColor);
 
             //std::cout << x << " " << screen[y][x].getColor().x << std::endl;
         }
